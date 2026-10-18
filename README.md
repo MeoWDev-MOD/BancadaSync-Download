@@ -7,9 +7,9 @@
 O sistema de gestão para assistência técnica que roda no seu próprio computador. Grátis.</p>
 
 <p align="center">
-  <a href="https://github.com/vendashson-rgb/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe"><b>⬇️ Baixar para Windows (85 MB)</b></a>
+  <a href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe"><b>⬇️ Baixar para Windows (85 MB)</b></a>
   &nbsp;·&nbsp;
-  <a href="https://vendashson-rgb.github.io/BancadaSync-Download/">Ver a página com os prints</a>
+  <a href="https://meowdev-mod.github.io/BancadaSync-Download/">Ver a página com os prints</a>
 </p>
 
 ---
@@ -82,7 +82,7 @@ A ativação do Pro é feita com o desenvolvedor: veja o contato no fim desta p�
 
 ## Como instalar
 
-1. Baixe o **[BancadaSync-Setup.exe](https://github.com/vendashson-rgb/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe)**.
+1. Baixe o **[BancadaSync-Setup.exe](https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe)**.
 2. Dê dois cliques. O Windows pode mostrar o aviso **"O Windows protegeu o computador"**: clique em **Mais informações** e depois em **Executar assim mesmo** (veja a pergunta frequente abaixo).
 3. Siga o assistente. **Não precisa de senha de administrador.**
 4. Abra o **BancadaSync** pelo atalho. O navegador abre na tela de primeiro acesso: informe os dados da loja e crie o seu usuário e senha.
