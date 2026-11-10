@@ -9,7 +9,7 @@ O sistema de gestão para assistência técnica que roda no seu próprio computa
 <p align="center">
   <a href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe"><b>⬇️ Baixar para Windows (85 MB)</b></a>
   &nbsp;·&nbsp;
-  <a href="https://meowdev-mod.github.io/BancadaSync-Download/">Ver a página com os prints</a>
+  <a href="https://techmeow.app/BancadaSync-Download/">Ver a página com os prints</a>
 </p>
 
 ---
