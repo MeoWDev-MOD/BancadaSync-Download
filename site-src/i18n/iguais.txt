@@ -1,0 +1,2 @@
+# Textos que ficam iguais em todos os idiomas (marcas). Uma chave por linha.
+5721bbef40 Instagram

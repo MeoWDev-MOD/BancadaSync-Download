@@ -1,0 +1,229 @@
+# Traduções do BancadaSync (es). Cada "@@ chave" vem de textos-pt.json (rode traduzir.py extrair).
+@@ 213149b685
+BancadaSync — gestión para servicio técnico, gratis
+@@ 05c53e8f6a
+Del check-in a la reparación entregada. Órdenes de servicio, clientes, finanzas y garantía en tu computadora. Gratis, sin mensualidad.
+@@ 60b8104f05
+BancadaSync — gestión para servicio técnico
+@@ 32daf73a80
+Del check-in a la reparación entregada. Gratis, corre en tu computadora.
+@@ 430e13e17a
+<img src="img/icon.png" alt="" width="34" height="34">BancadaSync
+@@ 9537dd355a
+Qué resuelve
+@@ 9a76cf9887
+Capturas
+@@ 530ffaee4c
+Gratis y Pro
+@@ 7391859fff
+Descargar gratis
+@@ be25efbbf9
+Gestión para servicio técnico
+@@ 4f37e0e22b
+Del check-in a la<br>reparación entregada.
+@@ e42286da9b
+Órdenes de servicio, clientes, finanzas y garantía en un solo lugar. El sistema corre en tu computadora: sin mensualidad y sin depender de internet para trabajar.
+@@ 87b688412e
+⬇ Descargar para Windows (85 MB)
+@@ 85c6e1baa3
+Ver el sistema por dentro
+@@ 119c6a4c83
+Windows 10 u 11 · se instala sin contraseña de administrador · tarda pocos minutos
+@@ f3e990f8ed
+Panel en vivo de BancadaSync con atenciones activas, pendientes y números del mes
+@@ b30effc249
+Qué resuelve
+@@ f5069ea116
+El fin del cuaderno, de la planilla y del “¿dónde está ese equipo?”
+@@ 3e15b2a230
+Cada dolor del mostrador tiene una respuesta dentro del sistema.
+@@ a09d4dabee
+“¿Qué vino junto con el equipo?”
+@@ 28334da4fb
+Check-in sin olvidar nada
+@@ 15afbf21aa
+Cliente, equipo, número de serie, accesorios y falla informada quedan registrados en la orden de servicio, ya en el mostrador.
+@@ ebae412a6a
+“¿Cómo va esa reparación?”
+@@ aa445a9caf
+Estado de cada orden
+@@ 7a34a35bcb
+Presupuesto, aprobado, recibido, en análisis, esperando repuesto, listo y entregado: todo visible en la lista y en el panel.
+@@ 13d393c0d6
+“¿Qué orden está esperando repuesto?”
+@@ 8165d4b6c0
+Panel en vivo y pendientes
+@@ c15b42a90c
+Mira las atenciones activas, lo que espera repuestos y lo que ya está listo para retirar.
+@@ 4688e55a1a
+“El cliente dice que no firmó nada.”
+@@ 49708309a7
+Orden impresa profesional
+@@ 835397c273
+Nota de servicio con datos de la tienda, ítems, total, plazos, garantía y campo de firma del cliente.
+@@ ad83148790
+“¿Cuál era la garantía?”
+@@ 4d6278dfdb
+Garantía por escrito
+@@ 9b794eb23f
+Términos de garantía por tipo de servicio, impresos junto con la orden.
+@@ 37697818e4
+“¿Cuánto entró y cuánto salió?”
+@@ 54d6edafde
+Finanzas de verdad
+@@ 4aba311d98
+La orden entregada se convierte en ingreso sola. Salidas, gastos fijos, balance del mes y exportación en PDF.
+@@ ff30cce69b
+“¿Cuánto debo de comisión?”
+@@ f8588938ec
+Comisión por técnico
+@@ 4814b17585
+Calculada sobre las reparaciones entregadas, sin cuentas de cabeza a fin de mes.
+@@ a2dc4fcee0
+“¿Quién tocó esto?”
+@@ ae4d28f1da
+Equipo con control
+@@ 0039349e0b
+Permisos por función (dueño, administrador, recepcionista, técnico, retiro) y auditoría de lo que se hizo.
+@@ a1d62bf63f
+“¿Y si se cae internet?”
+@@ 7ea3e726bc
+Datos en tu computadora
+@@ 45f8a57628
+Tus datos quedan contigo, en una base local. Trabaja normalmente, sin mensualidad.
+@@ 68f3f53b8d
+El sistema por dentro
+@@ b9d3559527
+Mira cómo es en el día a día
+@@ cf7ded7b21
+Haz clic en cualquier imagen para ampliar. Las capturas usan datos ficticios. La interfaz del programa está en portugués.
+@@ 6e56d0857d
+Lista de órdenes de servicio con estados en colores
+@@ 8270da36c6
+<b>Órdenes de servicio.</b> El estado de cada equipo de un vistazo.
+@@ aa605bd03c
+Detalle de una orden con el flujo de la reparación
+@@ 996e7e0c97
+<b>Detalle de la orden.</b> Flujo de la reparación, equipo, cliente y valores.
+@@ e86c4d310d
+Nota de servicio impresa con datos de la tienda, cliente, equipo, ítems y firmas
+@@ 401cbebe86
+<b>Orden impresa.</b> Nota de servicio lista para que el cliente firme.
+@@ a349cdc500
+Pantalla de finanzas con facturación, salidas y balance del mes
+@@ 0c210aacf6
+<b>Finanzas.</b> Facturación, salidas, balance mensual y gastos fijos.
+@@ ea3f875f79
+Registro de clientes
+@@ 09301a00e3
+<b>Clientes.</b> Registro con el historial de cada uno.
+@@ 0dea56380c
+Agenda mensual de atenciones
+@@ 05339eee12
+<b>Agenda.</b> Atenciones del día, de la semana y del mes.
+@@ 58f19ae2e4
+Pantalla de primer acceso para crear la tienda y el usuario
+@@ 0b2ae20d6e
+<b>Primer acceso.</b> Crea tu tienda y tu usuario en un minuto.
+@@ ad46a7c406
+Pantalla de inicio de sesión de BancadaSync
+@@ 70c25cb24f
+<b>Inicio de sesión.</b> Acceso seguro con correo y contraseña.
+@@ cca2c26bbf
+Empieza gratis. Crece cuando lo necesites.
+@@ 96e31a3b07
+La versión gratis ya resuelve lo básico de un servicio técnico. Pro libera integraciones y acceso desde cualquier lugar.
+@@ 701babe8bc
+Función
+@@ 26f630caad
+Gratis
+@@ 66d0c5e6b1
+Pro
+@@ 766fbd2e45
+Órdenes de servicio, impresión y garantía
+@@ 1654397c04
+Clientes, equipos, productos, servicios y proveedores
+@@ 444ff87c6f
+Finanzas y comisiones
+@@ 932e050643
+Auditoría y permisos por función
+@@ 5891b7e007
+Usuarios
+@@ 829dae7e7c
+hasta 3
+@@ 33b9f474b0
+ilimitados
+@@ 86a5700432
+Enlace de seguimiento para el cliente
+@@ d3932b667f
+WhatsApp integrado y plantillas de mensajes
+@@ b512d7d1d3
+Integración por API / N8N
+@@ ed4d5f5465
+Acceso en computadora, tablet y celular
+@@ 35c60f4ad8
+Seguir a distancia, en tiempo real, cuánto está facturando la tienda
+@@ 2e6b67b9a0
+Quiero el Pro (WhatsApp)
+@@ 6f9115cf91
+Cómo instalar
+@@ e92ffabaa6
+Listo para usar en pocos minutos
+@@ b5e6c84323
+Descarga el instalador
+@@ f87bb48cbd
+Haz clic en “Descargar gratis” y guarda el <code>BancadaSync-Setup.exe</code>.
+@@ 21bd848d7d
+Instala
+@@ fc78ef9548
+Haz doble clic y sigue el asistente. Si Windows avisa, haz clic en <b>Más información</b> y luego en <b>Ejecutar de todas formas</b>. No necesita contraseña de administrador.
+@@ 20f93eff61
+Crea tu tienda
+@@ 3ea6ce5c87
+Abre BancadaSync. En la primera pantalla, ingresa los datos del servicio técnico y crea tu usuario y contraseña. Listo.
+@@ 08e3a5181e
+⬇ Descargar para Windows
+@@ 7231a3bb43
+Preguntas frecuentes
+@@ 193ee18ded
+¿Por qué Windows muestra un aviso al instalar?
+@@ 177616f4d8
+El instalador todavía no tiene firma digital paga (el certificado de “editor verificado”), así que SmartScreen muestra “editor desconocido”. El archivo es el mismo publicado aquí; verifica la integridad con el hash de abajo.
+@@ 64dfd5637e
+¿Dónde quedan mis datos?
+@@ 1d8f798ac9
+En tu computadora, en <code>%APPDATA%\CRM Assistencia</code>. Al desinstalar, el programa pregunta si quieres borrar los datos; lo predeterminado es conservarlos.
+@@ b580980b50
+¿Necesito internet?
+@@ ddd8bcade1
+Para el día a día, no. Solo para funciones que dependen de ella, como el WhatsApp de la versión Pro.
+@@ dc23f7d388
+¿Y si la computadora se apaga?
+@@ 1f7069c632
+Al encenderla de nuevo, abre el acceso directo de BancadaSync: tus datos y accesos vuelven como estaban.
+@@ a45e8af037
+¿Cómo actualizo a una versión nueva?
+@@ d48f5d98af
+Ejecuta el instalador nuevo encima. Cierra el sistema, cambia los archivos y conserva tus datos.
+@@ e06680cc3d
+¿Cómo verifico que el archivo es el original? (SHA-256 de la versión 1.0.0)
+@@ a8064a7f9f
+<code>1d10463c9d5ac24ce16623b04e5573c4cbf718de99053cb7d86f108681689fa7</code><br>En PowerShell: <code>Get-FileHash .\BancadaSync-Setup.exe -Algorithm SHA256</code>
+@@ 0ade5af5ac
+Habla con el desarrollador
+@@ ab1349626a
+¿Dudas, sugerencias o quieres el Pro?
+@@ 6b33921327
+Desarrollado por <b style="color:var(--text)">Jefferson Honorio (MeoWDev MOD)</b>.
+@@ b336fc5587
+WhatsApp
+@@ 7b01e3f0bb
+Sitio Tech MeoW
+@@ 0d01e2e866
+Correo
+@@ 05bdc2493a
+MeoWDev MOD
+@@ eaf7b3590d
+Developed by Jefferson Honorio (MeoWDev MOD)
+@@ f5d93ae100
+BancadaSync · gestión para servicio técnico

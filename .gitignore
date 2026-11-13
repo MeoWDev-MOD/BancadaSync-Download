@@ -1,2 +1,6 @@
 *.exe
 Thumbs.db
+.playwright-cli/
+__pycache__/
+site-src/i18n/faltando-*.json
+site-src/i18n/__pycache__/

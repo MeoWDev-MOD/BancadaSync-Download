@@ -1,0 +1,229 @@
+# Traduções do BancadaSync (en). Cada "@@ chave" vem de textos-pt.json (rode traduzir.py extrair).
+@@ 213149b685
+BancadaSync — repair shop management, free
+@@ 05c53e8f6a
+From check-in to delivered repair. Service orders, customers, finances and warranty on your computer. Free, no monthly fee.
+@@ 60b8104f05
+BancadaSync — repair shop management
+@@ 32daf73a80
+From check-in to delivered repair. Free, runs on your computer.
+@@ 430e13e17a
+<img src="img/icon.png" alt="" width="34" height="34">BancadaSync
+@@ 9537dd355a
+What it solves
+@@ 9a76cf9887
+Screenshots
+@@ 530ffaee4c
+Free and Pro
+@@ 7391859fff
+Download for free
+@@ be25efbbf9
+Repair shop management
+@@ 4f37e0e22b
+From check-in to<br>delivered repair.
+@@ e42286da9b
+Service orders, customers, finances and warranty in one place. The system runs on your computer: no monthly fee and no internet needed to work.
+@@ 87b688412e
+⬇ Download for Windows (85 MB)
+@@ 85c6e1baa3
+See the system inside
+@@ 119c6a4c83
+Windows 10 or 11 · installs without an administrator password · takes a few minutes
+@@ f3e990f8ed
+BancadaSync live dashboard with active jobs, pending items and the month's numbers
+@@ b30effc249
+What it solves
+@@ f5069ea116
+The end of the notebook, the spreadsheet and “where is that device?”
+@@ 3e15b2a230
+Every pain at the counter has an answer inside the system.
+@@ a09d4dabee
+“What came with the device?”
+@@ 28334da4fb
+Check-in without forgetting anything
+@@ 15afbf21aa
+Customer, device, serial number, accessories and reported fault are recorded in the service order, right at the counter.
+@@ ebae412a6a
+“How far along is this repair?”
+@@ aa445a9caf
+Status of every service order
+@@ 7a34a35bcb
+Quote, approved, received, under analysis, waiting for parts, ready and delivered: all visible in the list and on the dashboard.
+@@ 13d393c0d6
+“Which order is waiting for parts?”
+@@ 8165d4b6c0
+Live dashboard and pending items
+@@ c15b42a90c
+See the active jobs, what is waiting for parts and what is ready for pickup.
+@@ 4688e55a1a
+“The customer says they never signed anything.”
+@@ 49708309a7
+Professional printed service order
+@@ 835397c273
+Service note with the shop's details, items, total, deadlines, warranty and a signature field for the customer.
+@@ ad83148790
+“What was the warranty again?”
+@@ 4d6278dfdb
+Warranty in writing
+@@ 9b794eb23f
+Warranty terms per type of service, printed together with the service order.
+@@ 37697818e4
+“How much came in and how much went out?”
+@@ 54d6edafde
+Real finances
+@@ 4aba311d98
+A delivered order becomes income by itself. Expenses, fixed costs, monthly balance and PDF export.
+@@ ff30cce69b
+“How much commission do I owe?”
+@@ f8588938ec
+Commission per technician
+@@ 4814b17585
+Calculated on the delivered repairs, with no mental math at the end of the month.
+@@ a2dc4fcee0
+“Who touched this?”
+@@ ae4d28f1da
+Team under control
+@@ 0039349e0b
+Permissions per role (owner, administrator, clerk, technician, pickup) and an audit log of what was done.
+@@ a1d62bf63f
+“What if the internet goes down?”
+@@ 7ea3e726bc
+Data on your computer
+@@ 45f8a57628
+Your data stays with you, in a local database. Work as usual, with no monthly fee.
+@@ 68f3f53b8d
+The system inside
+@@ b9d3559527
+See what it looks like day to day
+@@ cf7ded7b21
+Click any image to enlarge. The screenshots use fictional data. The program's interface is in Portuguese.
+@@ 6e56d0857d
+List of service orders with colored statuses
+@@ 8270da36c6
+<b>Service orders.</b> The status of every device at a glance.
+@@ aa605bd03c
+Detail of a service order with the repair flow
+@@ 996e7e0c97
+<b>Order detail.</b> Repair flow, device, customer and amounts.
+@@ e86c4d310d
+Printed service note with the shop's details, customer, device, items and signatures
+@@ 401cbebe86
+<b>Printed order.</b> Service note ready for the customer to sign.
+@@ a349cdc500
+Finance screen with revenue, expenses and the month's balance
+@@ 0c210aacf6
+<b>Finances.</b> Revenue, expenses, monthly balance and fixed costs.
+@@ ea3f875f79
+Customer records
+@@ 09301a00e3
+<b>Customers.</b> Records with each one's history.
+@@ 0dea56380c
+Monthly appointment calendar
+@@ 05339eee12
+<b>Calendar.</b> Appointments for the day, the week and the month.
+@@ 58f19ae2e4
+First-access screen to create the shop and the user
+@@ 0b2ae20d6e
+<b>First access.</b> Create your shop and your user in a minute.
+@@ ad46a7c406
+BancadaSync login screen
+@@ 70c25cb24f
+<b>Login.</b> Secure access with e-mail and password.
+@@ cca2c26bbf
+Start for free. Grow when you need to.
+@@ 96e31a3b07
+The free version already covers the basics of a repair shop. Pro unlocks integrations and access from anywhere.
+@@ 701babe8bc
+Feature
+@@ 26f630caad
+Free
+@@ 66d0c5e6b1
+Pro
+@@ 766fbd2e45
+Service orders, printing and warranty
+@@ 1654397c04
+Customers, devices, products, services and suppliers
+@@ 444ff87c6f
+Finances and commissions
+@@ 932e050643
+Audit log and permissions per role
+@@ 5891b7e007
+Users
+@@ 829dae7e7c
+up to 3
+@@ 33b9f474b0
+unlimited
+@@ 86a5700432
+Tracking link for the customer
+@@ d3932b667f
+Built-in WhatsApp and message templates
+@@ b512d7d1d3
+API / N8N integration
+@@ ed4d5f5465
+Access on desktop, tablet and phone
+@@ 35c60f4ad8
+Follow from afar, in real time, when the shop is billing
+@@ 2e6b67b9a0
+I want Pro (WhatsApp)
+@@ 6f9115cf91
+How to install
+@@ e92ffabaa6
+Ready to use in a few minutes
+@@ b5e6c84323
+Download the installer
+@@ f87bb48cbd
+Click “Download for free” and save <code>BancadaSync-Setup.exe</code>.
+@@ 21bd848d7d
+Install
+@@ fc78ef9548
+Double-click it and follow the wizard. If Windows warns you, click <b>More info</b> and then <b>Run anyway</b>. No administrator password needed.
+@@ 20f93eff61
+Create your shop
+@@ 3ea6ce5c87
+Open BancadaSync. On the first screen, enter the shop's details and create your user and password. Done.
+@@ 08e3a5181e
+⬇ Download for Windows
+@@ 7231a3bb43
+Frequently asked questions
+@@ 193ee18ded
+Why does Windows show a warning when installing?
+@@ 177616f4d8
+The installer does not have a paid digital signature yet (the “verified publisher” certificate), so SmartScreen shows “unknown publisher”. The file is the same one published here; check its integrity with the hash below.
+@@ 64dfd5637e
+Where is my data kept?
+@@ 1d8f798ac9
+On your computer, in <code>%APPDATA%\CRM Assistencia</code>. When uninstalling, the program asks whether you want to delete the data; the default is to keep it.
+@@ b580980b50
+Do I need internet?
+@@ ddd8bcade1
+For day-to-day work, no. Only for features that depend on it, such as WhatsApp in the Pro version.
+@@ dc23f7d388
+What if the computer shuts down?
+@@ 1f7069c632
+When it turns back on, open the BancadaSync shortcut: your data and logins come back as they were.
+@@ a45e8af037
+How do I update to a new version?
+@@ d48f5d98af
+Run the new installer over it. It closes the system, replaces the files and keeps your data.
+@@ e06680cc3d
+How do I check that the file is the original? (SHA-256 of version 1.0.0)
+@@ a8064a7f9f
+<code>1d10463c9d5ac24ce16623b04e5573c4cbf718de99053cb7d86f108681689fa7</code><br>In PowerShell: <code>Get-FileHash .\BancadaSync-Setup.exe -Algorithm SHA256</code>
+@@ 0ade5af5ac
+Talk to the developer
+@@ ab1349626a
+Questions, suggestions or want Pro?
+@@ 6b33921327
+Developed by <b style="color:var(--text)">Jefferson Honorio (MeoWDev MOD)</b>.
+@@ b336fc5587
+WhatsApp
+@@ 7b01e3f0bb
+Tech MeoW website
+@@ 0d01e2e866
+E-mail
+@@ 05bdc2493a
+MeoWDev MOD
+@@ eaf7b3590d
+Developed by Jefferson Honorio (MeoWDev MOD)
+@@ f5d93ae100
+BancadaSync · repair shop management
