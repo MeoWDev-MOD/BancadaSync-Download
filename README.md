@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">BancadaSync</h1>
+<p align="center">🌐 <b><a href="README.en.md">Read in English</a></b></p>
 <p align="center"><b>Do check-in ao reparo entregue.</b><br>
 O sistema de gestão para assistência técnica que roda no seu próprio computador. Grátis.</p>
 

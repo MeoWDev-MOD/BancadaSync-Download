@@ -2,12 +2,34 @@
   "base": "https://techmeow.app/BancadaSync-Download/",
   "docs": "docs",
   "raiz": "/BancadaSync-Download/",
-  "paginas": ["index.html"],
-  "idiomas": ["en", "es", "ru"],
+  "paginas": [
+    "index.html"
+  ],
+  "idiomas": [
+    "en",
+    "es",
+    "ru"
+  ],
   "origem": "pt-BR",
   "chave_idioma": "techmeow.lang",
-  "outros_traduzidos": ["/ps5-hdmi-tool/", "/Control-PS-5/"],
-  "paginas_exatas": ["/", "/projetos/", "/app/", "/app/acesso/", "/privacidade/", "/JNX/"],
-  "sitemap": ["index.html"],
+  "outros_traduzidos": [
+    "/ps5-hdmi-tool/",
+    "/Control-PS-5/",
+    "/ps5-controle-test/",
+    "/Iron-Check/",
+    "/BancadaSync-Download/"
+  ],
+  "paginas_exatas": [
+    "/",
+    "/projetos/",
+    "/app/",
+    "/app/acesso/",
+    "/privacidade/",
+    "/JNX/",
+    "/MeoWGuard/"
+  ],
+  "sitemap": [
+    "index.html"
+  ],
   "imagens": {}
 }
