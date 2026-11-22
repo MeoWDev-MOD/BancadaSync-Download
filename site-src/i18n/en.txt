@@ -227,3 +227,200 @@ MeoWDev MOD
 Developed by Jefferson Honorio (MeoWDev MOD)
 @@ f5d93ae100
 BancadaSync · repair shop management
+
+@@ 0b7e1ac584
+BancadaSync — online system for repair shops, from R$59.90/month
+@@ 2bc5bfedf1
+Service orders, customers, finances, warranty and WhatsApp in one online system for repair shops. Use it from a computer, tablet or phone, with your whole team together. Plans from R$59.90 per month. There is also a free version for a single computer.
+@@ a5ef775088
+BancadaSync — online system for repair shops
+@@ 2643681e4b
+From check-in to delivered repair, from any device. Plans from R$59.90 per month.
+@@ 2f98508304
+Plans
+@@ 1bca77c492
+Free version
+@@ 7573ba8515
+Log in
+@@ 20dd0c340f
+See plans
+@@ 6fe3a4d274
+<i></i>Online system, ready to use
+@@ 444393fe2e
+Your repair shop<br>organized, from anywhere.
+@@ 43f908f5b5
+Service orders, customers, finances, warranty and WhatsApp in a single system. Log in from a computer, tablet or phone, and your whole team works together, at the same time.
+@@ 4bcae4efb0
+See plans and create your account
+@@ 447adfc41c
+I already have an account · Log in
+@@ bb92d8b165
+Plans from R$59.90 per month
+@@ 9f232acf46
+Activated as soon as payment is confirmed
+@@ 49909db1c0
+Nothing to install
+@@ 9853c51e80
+"Customers keep calling to ask."
+@@ cbd84dbd87
+Tracking link
+@@ f18f19e8ff
+Customers follow the repair on their own phone, without having to call the shop.
+@@ 8ce8e23df7
+"I'm out and need to check on the shop."
+@@ 9ac224b1f9
+Access from any device
+@@ a4fe5c5c0c
+Open it on a computer, tablet or phone, with the same login and the same data, from inside or outside the shop.
+@@ 575ea2cd07
+I want to use BancadaSync
+@@ a545bea360
+Online system plans
+@@ 9a0e8ef7a6
+Pick a plan and start today.
+@@ 68e9cf132d
+You create the account, confirm your e-mail and pay. As soon as the payment is confirmed, the system is activated, with no one to wait for.
+@@ 1708faf0b7
+Starter
+@@ 66c9f58607
+For the shop that is getting the counter organized.
+@@ 4044b52cdd
+R$59.90 <small>/month</small>
+@@ eed9927c3e
+Up to 400 orders per month
+@@ e534422ecc
+You + 2 employees
+@@ a0209b2498
+Customers and devices
+@@ 741bb762b9
+Inventory
+@@ 80fc5c9e37
+Customer portal
+@@ a5afb2b83b
+Finances
+@@ c23e09922a
+Choose Starter
+@@ fef9d960d5
+Recommended
+@@ b5e489aa12
+Professional
+@@ 48f6de8fa0
+For the shop with a team that serves customers on WhatsApp.
+@@ 054d3b136b
+R$120.00 <small>/month</small>
+@@ 8575ff1c6a
+Everything in Starter
+@@ d2dc9b3907
+Up to 600 orders per month
+@@ 54de845625
+Up to 8 users
+@@ 96d7da8688
+Sales (counter)
+@@ 0015ae5f62
+Permissions by role
+@@ a7a1ebe81f
+Reports
+@@ 0b4fa4582b
+Choose Professional
+@@ ecd20bf8e1
+Business
+@@ ed365476b9
+For a large operation, with no limit on orders or users.
+@@ 8b97a28788
+R$349.90 <small>/month</small>
+@@ 0e1191a0c2
+Everything in Professional
+@@ d4ba66b360
+Unlimited orders and users
+@@ 67dd92401d
+Advanced audit log
+@@ fda5737a3d
+N8N automation
+@@ 93f251f51e
+Priority support
+@@ 2acc4bd81a
+Choose Business
+@@ b1cfa539d4
+I'm already a customer · Log in
+@@ 63e959df19
+Ask questions on WhatsApp
+@@ 4e074070b1
+Online or free
+@@ 78aa383563
+What is the difference?
+@@ a690c1a248
+The free version works only on the computer where it was installed. The online system works on any device, for the whole team.
+@@ 2dd05cd231
+Free (on your computer)
+@@ 1b25279067
+Online (plans)
+@@ 1735400972
+Customers, devices, products and services
+@@ d056e55b72
+Access from computer, tablet and phone
+@@ acc9ab0656
+🔒 only on the computer where it was installed
+@@ acde3bceb5
+Team using it at the same time, on different devices
+@@ 6d6d7b65b1
+from 3 to unlimited, depending on the plan
+@@ 9c5020af36
+✓ in Professional and Business
+@@ 1469b1b95e
+N8N integration
+@@ c71a82bf54
+✓ in Business
+@@ 2f11b88a8d
+Price
+@@ 5e00104ed6
+from R$59.90/month
+@@ 885faa3365
+See the online plans
+@@ db68fbb571
+Want to try it on your computer first?
+@@ 9e37f3277c
+The free version is a Windows program. It already covers the basics of a repair shop, but it only works on the computer where you installed it.
+@@ 57c562f587
+Runs on your computer, no monthly fee
+@@ 5ca876b217
+Up to 3 users
+@@ 0ffcadeb57
+No access from phones or other devices
+@@ 373748be84
+No WhatsApp, no tracking link and no N8N
+@@ abaa0841eb
+⬇ Free download for Windows (85 MB)
+@@ b803753b43
+Download and save <code>BancadaSync-Setup.exe</code>.
+@@ 7bbd2ecd58
+Double-click and follow the wizard. If Windows shows a warning, click <b>More info</b> and then <b>Run anyway</b>.
+@@ 3b9ebce96e
+Open BancadaSync and create your shop and your user.
+@@ 9b74312f10
+Still have questions?
+@@ 87c8fc89c5
+Do I need to install anything for the online system?
+@@ 11f0eb8ef8
+No. Just log in from the browser on your computer, tablet or phone, with your e-mail and password.
+@@ a08584454b
+When is the system activated after I pay?
+@@ 95493c932d
+As soon as the payment is confirmed. You create the account, confirm your e-mail and pay; activation is automatic.
+@@ 1b4bb83eaf
+Which plan should I choose?
+@@ 1a71013379
+Starter suits those just beginning, with up to 400 orders per month and you plus 2 employees. Professional is for shops with a team and WhatsApp, with up to 600 orders and 8 users. Business has no limit on orders or users.
+@@ 3379222495
+What is the limit of the free version?
+@@ 3099ab062a
+It runs only on the computer where it was installed, for up to 3 users, and has no WhatsApp, tracking link or N8N.
+@@ b842f51c6f
+Why does Windows show a warning when installing the free version?
+@@ a0b1d1802f
+Where is the free version's data stored?
+@@ a36b145445
+How do I check that the free version's file is the original? (SHA-256 of version 1.0.0)
+@@ 9570338625
+Questions or suggestions?
+@@ 108338cd4a
+Create my account

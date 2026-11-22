@@ -227,3 +227,200 @@ MeoWDev MOD
 Developed by Jefferson Honorio (MeoWDev MOD)
 @@ f5d93ae100
 BancadaSync · gestión para servicio técnico
+
+@@ 0b7e1ac584
+BancadaSync — sistema en línea para talleres de reparación, desde R$ 59,90/mes
+@@ 2bc5bfedf1
+Órdenes de servicio, clientes, finanzas, garantía y WhatsApp en un sistema en línea para talleres de reparación. Úselo desde el computador, la tableta o el celular, con todo el equipo junto. Planes desde R$ 59,90 al mes. También hay una versión gratis para un solo computador.
+@@ a5ef775088
+BancadaSync — sistema en línea para talleres de reparación
+@@ 2643681e4b
+Del ingreso a la reparación entregada, desde cualquier dispositivo. Planes desde R$ 59,90 al mes.
+@@ 2f98508304
+Planes
+@@ 1bca77c492
+Versión gratis
+@@ 7573ba8515
+Entrar
+@@ 20dd0c340f
+Ver planes
+@@ 6fe3a4d274
+<i></i>Sistema en línea, listo para usar
+@@ 444393fe2e
+Su taller de reparación<br>organizado, desde cualquier lugar.
+@@ 43f908f5b5
+Órdenes de servicio, clientes, finanzas, garantía y WhatsApp en un solo sistema. Entre desde el computador, la tableta o el celular, y todo el equipo trabaja junto, al mismo tiempo.
+@@ 4bcae4efb0
+Ver planes y crear la cuenta
+@@ 447adfc41c
+Ya tengo cuenta · Entrar
+@@ bb92d8b165
+Planes desde R$ 59,90 al mes
+@@ 9f232acf46
+Se activa en cuanto se confirma el pago
+@@ 49909db1c0
+No hay que instalar nada
+@@ 9853c51e80
+"El cliente llama todo el tiempo para preguntar."
+@@ cbd84dbd87
+Enlace de seguimiento
+@@ f18f19e8ff
+El cliente sigue la reparación desde su celular, sin necesidad de llamar al taller.
+@@ 8ce8e23df7
+"Estoy en la calle y necesito ver el taller."
+@@ 9ac224b1f9
+Acceso desde cualquier dispositivo
+@@ a4fe5c5c0c
+Ábralo en el computador, la tableta o el celular, con el mismo usuario y los mismos datos, dentro o fuera del taller.
+@@ 575ea2cd07
+Quiero usar BancadaSync
+@@ a545bea360
+Planes del sistema en línea
+@@ 9a0e8ef7a6
+Elija un plan y empiece hoy.
+@@ 68e9cf132d
+Usted crea la cuenta, confirma el correo y hace el pago. En cuanto se confirma el pago, el sistema se activa, sin esperar a nadie.
+@@ 1708faf0b7
+Inicial
+@@ 66c9f58607
+Para el taller que está organizando el mostrador.
+@@ 4044b52cdd
+R$ 59,90 <small>/mes</small>
+@@ eed9927c3e
+Hasta 400 órdenes por mes
+@@ e534422ecc
+Usted + 2 empleados
+@@ a0209b2498
+Clientes y equipos
+@@ 741bb762b9
+Inventario
+@@ 80fc5c9e37
+Portal del cliente
+@@ a5afb2b83b
+Finanzas
+@@ c23e09922a
+Elegir el Inicial
+@@ fef9d960d5
+Recomendado
+@@ b5e489aa12
+Profesional
+@@ 48f6de8fa0
+Para el taller con equipo que atiende por WhatsApp.
+@@ 054d3b136b
+R$ 120,00 <small>/mes</small>
+@@ 8575ff1c6a
+Todo lo del Inicial
+@@ d2dc9b3907
+Hasta 600 órdenes por mes
+@@ 54de845625
+Hasta 8 usuarios
+@@ 96d7da8688
+Ventas (mostrador)
+@@ 0015ae5f62
+Permisos por función
+@@ a7a1ebe81f
+Informes
+@@ 0b4fa4582b
+Elegir el Profesional
+@@ ecd20bf8e1
+Empresarial
+@@ ed365476b9
+Para una operación grande, sin límite de órdenes ni de usuarios.
+@@ 8b97a28788
+R$ 349,90 <small>/mes</small>
+@@ 0e1191a0c2
+Todo lo del Profesional
+@@ d4ba66b360
+Órdenes y usuarios ilimitados
+@@ 67dd92401d
+Auditoría avanzada
+@@ fda5737a3d
+Automatización con N8N
+@@ 93f251f51e
+Soporte prioritario
+@@ 2acc4bd81a
+Elegir el Empresarial
+@@ b1cfa539d4
+Ya soy cliente · Entrar al sistema
+@@ 63e959df19
+Resolver dudas por WhatsApp
+@@ 4e074070b1
+En línea o gratis
+@@ 78aa383563
+¿Cuál es la diferencia?
+@@ a690c1a248
+La versión gratis funciona solo en el computador donde se instaló. El sistema en línea funciona en cualquier dispositivo, para todo el equipo.
+@@ 2dd05cd231
+Gratis (en su computador)
+@@ 1b25279067
+En línea (planes)
+@@ 1735400972
+Clientes, equipos, productos y servicios
+@@ d056e55b72
+Acceso desde computador, tableta y celular
+@@ acc9ab0656
+🔒 solo en el computador donde se instaló
+@@ acde3bceb5
+Equipo usándolo al mismo tiempo, en dispositivos distintos
+@@ 6d6d7b65b1
+de 3 a ilimitados, según el plan
+@@ 9c5020af36
+✓ en el Profesional y en el Empresarial
+@@ 1469b1b95e
+Integración con N8N
+@@ c71a82bf54
+✓ en el Empresarial
+@@ 2f11b88a8d
+Precio
+@@ 5e00104ed6
+desde R$ 59,90/mes
+@@ 885faa3365
+Ver los planes en línea
+@@ db68fbb571
+¿Quiere probarlo primero en su computador?
+@@ 9e37f3277c
+La versión gratis es un programa para Windows. Ya resuelve lo básico de un taller, pero solo funciona en el computador donde la instaló.
+@@ 57c562f587
+Funciona en su computador, sin mensualidad
+@@ 5ca876b217
+Hasta 3 usuarios
+@@ 0ffcadeb57
+Sin acceso desde el celular ni desde otros dispositivos
+@@ 373748be84
+Sin WhatsApp, sin enlace de seguimiento y sin N8N
+@@ abaa0841eb
+⬇ Descargar gratis para Windows (85 MB)
+@@ b803753b43
+Descargue y guarde <code>BancadaSync-Setup.exe</code>.
+@@ 7bbd2ecd58
+Haga doble clic y siga el asistente. Si Windows muestra un aviso, haga clic en <b>Más información</b> y luego en <b>Ejecutar de todas formas</b>.
+@@ 3b9ebce96e
+Abra BancadaSync y cree su taller y su usuario.
+@@ 9b74312f10
+¿Todavía tiene dudas?
+@@ 87c8fc89c5
+¿Necesito instalar algo para el sistema en línea?
+@@ 11f0eb8ef8
+No. Solo entre desde el navegador del computador, la tableta o el celular, con su correo y contraseña.
+@@ a08584454b
+¿Cuándo se activa el sistema después de pagar?
+@@ 95493c932d
+En cuanto se confirma el pago. Usted crea la cuenta, confirma el correo y paga; la activación es automática.
+@@ 1b4bb83eaf
+¿Qué plan elegir?
+@@ 1a71013379
+El Inicial es para quien está empezando, con hasta 400 órdenes por mes y usted más 2 empleados. El Profesional sirve para talleres con equipo y WhatsApp, con hasta 600 órdenes y 8 usuarios. El Empresarial no tiene límite de órdenes ni de usuarios.
+@@ 3379222495
+¿Cuál es el límite de la versión gratis?
+@@ 3099ab062a
+Funciona solo en el computador donde se instaló, para hasta 3 usuarios, y no tiene WhatsApp, enlace de seguimiento ni N8N.
+@@ b842f51c6f
+¿Por qué Windows muestra un aviso al instalar la versión gratis?
+@@ a0b1d1802f
+¿Dónde quedan los datos de la versión gratis?
+@@ a36b145445
+¿Cómo compruebo que el archivo de la versión gratis es el original? (SHA-256 de la versión 1.0.0)
+@@ 9570338625
+¿Dudas o sugerencias?
+@@ 108338cd4a
+Crear mi cuenta

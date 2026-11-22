@@ -1,23 +1,23 @@
 [
  {
-  "k": "213149b685",
+  "k": "0b7e1ac584",
   "pagina": "index.html",
-  "pt": "BancadaSync — gestão para assistência técnica, grátis"
+  "pt": "BancadaSync — sistema online para assistência técnica, a partir de R$ 59,90/mês"
  },
  {
-  "k": "05c53e8f6a",
+  "k": "2bc5bfedf1",
   "pagina": "index.html",
-  "pt": "Do check-in ao reparo entregue. Ordens de serviço, clientes, financeiro e garantia no seu computador. Grátis, sem mensalidade."
+  "pt": "Ordens de serviço, clientes, financeiro, garantia e WhatsApp num sistema online para assistência técnica. Acesse do computador, tablet ou celular, com a equipe toda junta. Planos a partir de R$ 59,90 por mês. Também há versão grátis para um computador."
  },
  {
-  "k": "60b8104f05",
+  "k": "a5ef775088",
   "pagina": "index.html",
-  "pt": "BancadaSync — gestão para assistência técnica"
+  "pt": "BancadaSync — sistema online para assistência técnica"
  },
  {
-  "k": "32daf73a80",
+  "k": "2643681e4b",
   "pagina": "index.html",
-  "pt": "Do check-in ao reparo entregue. Grátis, roda no seu computador."
+  "pt": "Do check-in ao reparo entregue, de qualquer aparelho. Planos a partir de R$ 59,90 por mês."
  },
  {
   "k": "430e13e17a",
@@ -35,44 +35,64 @@
   "pt": "Prints"
  },
  {
-  "k": "530ffaee4c",
+  "k": "2f98508304",
   "pagina": "index.html",
-  "pt": "Grátis e Pro"
+  "pt": "Planos"
  },
  {
-  "k": "7391859fff",
+  "k": "1bca77c492",
   "pagina": "index.html",
-  "pt": "Baixar grátis"
+  "pt": "Versão grátis"
  },
  {
-  "k": "be25efbbf9",
+  "k": "7573ba8515",
   "pagina": "index.html",
-  "pt": "Gestão para assistência técnica"
+  "pt": "Entrar"
  },
  {
-  "k": "4f37e0e22b",
+  "k": "20dd0c340f",
   "pagina": "index.html",
-  "pt": "Do check-in ao<br>reparo entregue."
+  "pt": "Ver planos"
  },
  {
-  "k": "e42286da9b",
+  "k": "6fe3a4d274",
   "pagina": "index.html",
-  "pt": "Ordens de serviço, clientes, financeiro e garantia em um só lugar. O sistema roda no seu computador: sem mensalidade e sem depender de internet para trabalhar."
+  "pt": "<i></i>Sistema online, pronto para usar"
  },
  {
-  "k": "87b688412e",
+  "k": "444393fe2e",
   "pagina": "index.html",
-  "pt": "⬇ Baixar para Windows (85 MB)"
+  "pt": "A sua assistência técnica<br>organizada, de qualquer lugar."
  },
  {
-  "k": "85c6e1baa3",
+  "k": "43f908f5b5",
   "pagina": "index.html",
-  "pt": "Ver o sistema por dentro"
+  "pt": "Ordens de serviço, clientes, financeiro, garantia e WhatsApp num só sistema. Entre pelo computador, pelo tablet ou pelo celular, e a equipe inteira trabalha junta, ao mesmo tempo."
  },
  {
-  "k": "119c6a4c83",
+  "k": "4bcae4efb0",
   "pagina": "index.html",
-  "pt": "Windows 10 ou 11 · instala sem senha de administrador · leva poucos minutos"
+  "pt": "Ver planos e criar a conta"
+ },
+ {
+  "k": "447adfc41c",
+  "pagina": "index.html",
+  "pt": "Já tenho conta · Entrar"
+ },
+ {
+  "k": "bb92d8b165",
+  "pagina": "index.html",
+  "pt": "Planos a partir de R$ 59,90 por mês"
+ },
+ {
+  "k": "9f232acf46",
+  "pagina": "index.html",
+  "pt": "Liberado assim que o pagamento é confirmado"
+ },
+ {
+  "k": "49909db1c0",
+  "pagina": "index.html",
+  "pt": "Não precisa instalar nada"
  },
  {
   "k": "f3e990f8ed",
@@ -125,6 +145,21 @@
   "pt": "Orçamento, aprovado, recebido, em análise, aguardando peça, pronto e entregue: tudo visível na lista e no painel."
  },
  {
+  "k": "9853c51e80",
+  "pagina": "index.html",
+  "pt": "\"O cliente liga toda hora perguntando.\""
+ },
+ {
+  "k": "cbd84dbd87",
+  "pagina": "index.html",
+  "pt": "Link de acompanhamento"
+ },
+ {
+  "k": "f18f19e8ff",
+  "pagina": "index.html",
+  "pt": "O cliente acompanha o conserto pelo celular dele, sem precisar ligar para a loja."
+ },
+ {
   "k": "13d393c0d6",
   "pagina": "index.html",
   "pt": "\"Qual OS está esperando peça?\""
@@ -153,21 +188,6 @@
   "k": "835397c273",
   "pagina": "index.html",
   "pt": "Nota de serviço com dados da loja, itens, total, prazos, garantia e campo de assinatura do cliente."
- },
- {
-  "k": "ad83148790",
-  "pagina": "index.html",
-  "pt": "\"Qual era a garantia mesmo?\""
- },
- {
-  "k": "4d6278dfdb",
-  "pagina": "index.html",
-  "pt": "Garantia por escrito"
- },
- {
-  "k": "9b794eb23f",
-  "pagina": "index.html",
-  "pt": "Termos de garantia por tipo de serviço, impressos junto com a OS."
  },
  {
   "k": "37697818e4",
@@ -215,19 +235,19 @@
   "pt": "Permissões por função (dono, administrador, atendente, técnico, coleta) e auditoria do que foi feito."
  },
  {
-  "k": "a1d62bf63f",
+  "k": "8ce8e23df7",
   "pagina": "index.html",
-  "pt": "\"E se a internet cair?\""
+  "pt": "\"Estou na rua e preciso ver a loja.\""
  },
  {
-  "k": "7ea3e726bc",
+  "k": "9ac224b1f9",
   "pagina": "index.html",
-  "pt": "Dados no seu computador"
+  "pt": "Acesso de qualquer aparelho"
  },
  {
-  "k": "45f8a57628",
+  "k": "a4fe5c5c0c",
   "pagina": "index.html",
-  "pt": "Seus dados ficam com você, em um banco local. Trabalhe normalmente, sem mensalidade."
+  "pt": "Abra no computador, no tablet ou no celular, com o mesmo login e os mesmos dados, de dentro ou de fora da loja."
  },
  {
   "k": "68f3f53b8d",
@@ -305,34 +325,204 @@
   "pt": "<b>Agenda.</b> Atendimentos do dia, da semana e do mês."
  },
  {
-  "k": "58f19ae2e4",
+  "k": "575ea2cd07",
   "pagina": "index.html",
-  "pt": "Tela de primeiro acesso para criar a loja e o usuário"
+  "pt": "Quero usar o BancadaSync"
  },
  {
-  "k": "0b2ae20d6e",
+  "k": "a545bea360",
   "pagina": "index.html",
-  "pt": "<b>Primeiro acesso.</b> Crie a sua loja e o seu usuário em um minuto."
+  "pt": "Planos do sistema online"
  },
  {
-  "k": "ad46a7c406",
+  "k": "9a0e8ef7a6",
   "pagina": "index.html",
-  "pt": "Tela de login do BancadaSync"
+  "pt": "Escolha o plano e comece hoje."
  },
  {
-  "k": "70c25cb24f",
+  "k": "68e9cf132d",
   "pagina": "index.html",
-  "pt": "<b>Login.</b> Acesso seguro com e-mail e senha."
+  "pt": "Você cria a conta, confirma o e-mail e faz o pagamento. Assim que o pagamento é confirmado, o sistema é liberado, sem esperar por ninguém."
  },
  {
-  "k": "cca2c26bbf",
+  "k": "1708faf0b7",
   "pagina": "index.html",
-  "pt": "Comece de graça. Cresça quando precisar."
+  "pt": "Inicial"
  },
  {
-  "k": "96e31a3b07",
+  "k": "66c9f58607",
   "pagina": "index.html",
-  "pt": "A versão grátis já resolve o básico de uma assistência. O Pro libera integrações e acesso de qualquer lugar."
+  "pt": "Para a assistência que está organizando o balcão."
+ },
+ {
+  "k": "4044b52cdd",
+  "pagina": "index.html",
+  "pt": "R$ 59,90 <small>/mês</small>"
+ },
+ {
+  "k": "eed9927c3e",
+  "pagina": "index.html",
+  "pt": "Até 400 OS por mês"
+ },
+ {
+  "k": "e534422ecc",
+  "pagina": "index.html",
+  "pt": "Você + 2 funcionários"
+ },
+ {
+  "k": "a0209b2498",
+  "pagina": "index.html",
+  "pt": "Clientes e equipamentos"
+ },
+ {
+  "k": "741bb762b9",
+  "pagina": "index.html",
+  "pt": "Estoque"
+ },
+ {
+  "k": "80fc5c9e37",
+  "pagina": "index.html",
+  "pt": "Portal do cliente"
+ },
+ {
+  "k": "a5afb2b83b",
+  "pagina": "index.html",
+  "pt": "Financeiro"
+ },
+ {
+  "k": "c23e09922a",
+  "pagina": "index.html",
+  "pt": "Escolher o Inicial"
+ },
+ {
+  "k": "fef9d960d5",
+  "pagina": "index.html",
+  "pt": "Recomendado"
+ },
+ {
+  "k": "b5e489aa12",
+  "pagina": "index.html",
+  "pt": "Profissional"
+ },
+ {
+  "k": "48f6de8fa0",
+  "pagina": "index.html",
+  "pt": "Para a loja com equipe, que atende pelo WhatsApp."
+ },
+ {
+  "k": "054d3b136b",
+  "pagina": "index.html",
+  "pt": "R$ 120,00 <small>/mês</small>"
+ },
+ {
+  "k": "8575ff1c6a",
+  "pagina": "index.html",
+  "pt": "Tudo do Inicial"
+ },
+ {
+  "k": "d2dc9b3907",
+  "pagina": "index.html",
+  "pt": "Até 600 OS por mês"
+ },
+ {
+  "k": "54de845625",
+  "pagina": "index.html",
+  "pt": "Até 8 usuários"
+ },
+ {
+  "k": "96d7da8688",
+  "pagina": "index.html",
+  "pt": "Vendas (balcão)"
+ },
+ {
+  "k": "0015ae5f62",
+  "pagina": "index.html",
+  "pt": "Permissões por função"
+ },
+ {
+  "k": "b336fc5587",
+  "pagina": "index.html",
+  "pt": "WhatsApp"
+ },
+ {
+  "k": "a7a1ebe81f",
+  "pagina": "index.html",
+  "pt": "Relatórios"
+ },
+ {
+  "k": "0b4fa4582b",
+  "pagina": "index.html",
+  "pt": "Escolher o Profissional"
+ },
+ {
+  "k": "ecd20bf8e1",
+  "pagina": "index.html",
+  "pt": "Empresarial"
+ },
+ {
+  "k": "ed365476b9",
+  "pagina": "index.html",
+  "pt": "Para a operação grande, sem limite de OS e de usuários."
+ },
+ {
+  "k": "8b97a28788",
+  "pagina": "index.html",
+  "pt": "R$ 349,90 <small>/mês</small>"
+ },
+ {
+  "k": "0e1191a0c2",
+  "pagina": "index.html",
+  "pt": "Tudo do Profissional"
+ },
+ {
+  "k": "d4ba66b360",
+  "pagina": "index.html",
+  "pt": "OS e usuários ilimitados"
+ },
+ {
+  "k": "67dd92401d",
+  "pagina": "index.html",
+  "pt": "Auditoria avançada"
+ },
+ {
+  "k": "fda5737a3d",
+  "pagina": "index.html",
+  "pt": "Automação com N8N"
+ },
+ {
+  "k": "93f251f51e",
+  "pagina": "index.html",
+  "pt": "Suporte prioritário"
+ },
+ {
+  "k": "2acc4bd81a",
+  "pagina": "index.html",
+  "pt": "Escolher o Empresarial"
+ },
+ {
+  "k": "b1cfa539d4",
+  "pagina": "index.html",
+  "pt": "Já sou cliente · Entrar no sistema"
+ },
+ {
+  "k": "63e959df19",
+  "pagina": "index.html",
+  "pt": "Tirar dúvidas no WhatsApp"
+ },
+ {
+  "k": "4e074070b1",
+  "pagina": "index.html",
+  "pt": "Online ou grátis"
+ },
+ {
+  "k": "78aa383563",
+  "pagina": "index.html",
+  "pt": "Qual é a diferença?"
+ },
+ {
+  "k": "a690c1a248",
+  "pagina": "index.html",
+  "pt": "A versão grátis funciona só no computador em que foi instalada. O sistema online funciona em qualquer aparelho, para a equipe toda."
  },
  {
   "k": "701babe8bc",
@@ -340,14 +530,14 @@
   "pt": "Recurso"
  },
  {
-  "k": "26f630caad",
+  "k": "2dd05cd231",
   "pagina": "index.html",
-  "pt": "Grátis"
+  "pt": "Grátis (no seu computador)"
  },
  {
-  "k": "66d0c5e6b1",
+  "k": "1b25279067",
   "pagina": "index.html",
-  "pt": "Pro"
+  "pt": "Online (planos)"
  },
  {
   "k": "766fbd2e45",
@@ -355,9 +545,9 @@
   "pt": "Ordens de serviço, impressão e garantia"
  },
  {
-  "k": "1654397c04",
+  "k": "1735400972",
   "pagina": "index.html",
-  "pt": "Clientes, equipamentos, produtos, serviços e fornecedores"
+  "pt": "Clientes, equipamentos, produtos e serviços"
  },
  {
   "k": "444ff87c6f",
@@ -365,9 +555,19 @@
   "pt": "Financeiro e comissões"
  },
  {
-  "k": "932e050643",
+  "k": "d056e55b72",
   "pagina": "index.html",
-  "pt": "Auditoria e permissões por função"
+  "pt": "Acesso pelo computador, tablet e celular"
+ },
+ {
+  "k": "acc9ab0656",
+  "pagina": "index.html",
+  "pt": "🔒 só no computador onde foi instalado"
+ },
+ {
+  "k": "acde3bceb5",
+  "pagina": "index.html",
+  "pt": "Equipe usando ao mesmo tempo, em aparelhos diferentes"
  },
  {
   "k": "5891b7e007",
@@ -380,9 +580,9 @@
   "pt": "até 3"
  },
  {
-  "k": "33b9f474b0",
+  "k": "6d6d7b65b1",
   "pagina": "index.html",
-  "pt": "ilimitados"
+  "pt": "de 3 até ilimitados, conforme o plano"
  },
  {
   "k": "86a5700432",
@@ -395,24 +595,79 @@
   "pt": "WhatsApp integrado e modelos de mensagem"
  },
  {
-  "k": "b512d7d1d3",
+  "k": "9c5020af36",
   "pagina": "index.html",
-  "pt": "Integração por API / N8N"
+  "pt": "✓ no Profissional e no Empresarial"
  },
  {
-  "k": "ed4d5f5465",
+  "k": "1469b1b95e",
   "pagina": "index.html",
-  "pt": "Acesso no desktop, tablet e celular"
+  "pt": "Integração por N8N"
  },
  {
-  "k": "35c60f4ad8",
+  "k": "c71a82bf54",
   "pagina": "index.html",
-  "pt": "Acompanhar a distância, em tempo real, quando a loja está faturando"
+  "pt": "✓ no Empresarial"
  },
  {
-  "k": "2e6b67b9a0",
+  "k": "2f11b88a8d",
   "pagina": "index.html",
-  "pt": "Quero o Pro (WhatsApp)"
+  "pt": "Preço"
+ },
+ {
+  "k": "26f630caad",
+  "pagina": "index.html",
+  "pt": "Grátis"
+ },
+ {
+  "k": "5e00104ed6",
+  "pagina": "index.html",
+  "pt": "a partir de R$ 59,90/mês"
+ },
+ {
+  "k": "885faa3365",
+  "pagina": "index.html",
+  "pt": "Ver os planos online"
+ },
+ {
+  "k": "db68fbb571",
+  "pagina": "index.html",
+  "pt": "Quer testar no seu computador primeiro?"
+ },
+ {
+  "k": "9e37f3277c",
+  "pagina": "index.html",
+  "pt": "A versão grátis é um programa para Windows. Ela já resolve o básico da assistência, mas só funciona no computador em que você instalou."
+ },
+ {
+  "k": "57c562f587",
+  "pagina": "index.html",
+  "pt": "Roda no seu computador, sem mensalidade"
+ },
+ {
+  "k": "5ca876b217",
+  "pagina": "index.html",
+  "pt": "Até 3 usuários"
+ },
+ {
+  "k": "0ffcadeb57",
+  "pagina": "index.html",
+  "pt": "Sem acesso pelo celular ou por outros aparelhos"
+ },
+ {
+  "k": "373748be84",
+  "pagina": "index.html",
+  "pt": "Sem WhatsApp, sem link de acompanhamento e sem N8N"
+ },
+ {
+  "k": "abaa0841eb",
+  "pagina": "index.html",
+  "pt": "⬇ Baixar grátis para Windows (85 MB)"
+ },
+ {
+  "k": "119c6a4c83",
+  "pagina": "index.html",
+  "pt": "Windows 10 ou 11 · instala sem senha de administrador · leva poucos minutos"
  },
  {
   "k": "6f9115cf91",
@@ -420,44 +675,19 @@
   "pt": "Como instalar"
  },
  {
-  "k": "e92ffabaa6",
+  "k": "b803753b43",
   "pagina": "index.html",
-  "pt": "Pronto para usar em poucos minutos"
+  "pt": "Baixe e salve o <code>BancadaSync-Setup.exe</code>."
  },
  {
-  "k": "b5e6c84323",
+  "k": "7bbd2ecd58",
   "pagina": "index.html",
-  "pt": "Baixe o instalador"
+  "pt": "Dê dois cliques e siga o assistente. Se o Windows avisar, clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>."
  },
  {
-  "k": "f87bb48cbd",
+  "k": "3b9ebce96e",
   "pagina": "index.html",
-  "pt": "Clique em \"Baixar grátis\" e salve o <code>BancadaSync-Setup.exe</code>."
- },
- {
-  "k": "21bd848d7d",
-  "pagina": "index.html",
-  "pt": "Instale"
- },
- {
-  "k": "fc78ef9548",
-  "pagina": "index.html",
-  "pt": "Dê dois cliques e siga o assistente. Se o Windows avisar, clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>. Não precisa de senha de administrador."
- },
- {
-  "k": "20f93eff61",
-  "pagina": "index.html",
-  "pt": "Crie a sua loja"
- },
- {
-  "k": "3ea6ce5c87",
-  "pagina": "index.html",
-  "pt": "Abra o BancadaSync. Na primeira tela, informe os dados da assistência e crie seu usuário e senha. Pronto."
- },
- {
-  "k": "08e3a5181e",
-  "pagina": "index.html",
-  "pt": "⬇ Baixar para Windows"
+  "pt": "Abra o BancadaSync e crie a sua loja e o seu usuário."
  },
  {
   "k": "7231a3bb43",
@@ -465,9 +695,54 @@
   "pt": "Perguntas frequentes"
  },
  {
-  "k": "193ee18ded",
+  "k": "9b74312f10",
   "pagina": "index.html",
-  "pt": "Por que o Windows mostra um aviso ao instalar?"
+  "pt": "Ainda com dúvida?"
+ },
+ {
+  "k": "87c8fc89c5",
+  "pagina": "index.html",
+  "pt": "Preciso instalar alguma coisa no sistema online?"
+ },
+ {
+  "k": "11f0eb8ef8",
+  "pagina": "index.html",
+  "pt": "Não. É só entrar pelo navegador do computador, do tablet ou do celular, com o seu e-mail e senha."
+ },
+ {
+  "k": "a08584454b",
+  "pagina": "index.html",
+  "pt": "Quando o sistema é liberado depois que eu pago?"
+ },
+ {
+  "k": "95493c932d",
+  "pagina": "index.html",
+  "pt": "Assim que o pagamento é confirmado. Você cria a conta, confirma o e-mail e faz o pagamento; a liberação é automática."
+ },
+ {
+  "k": "1b4bb83eaf",
+  "pagina": "index.html",
+  "pt": "Qual plano escolher?"
+ },
+ {
+  "k": "1a71013379",
+  "pagina": "index.html",
+  "pt": "O Inicial atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários."
+ },
+ {
+  "k": "3379222495",
+  "pagina": "index.html",
+  "pt": "Qual é o limite da versão grátis?"
+ },
+ {
+  "k": "3099ab062a",
+  "pagina": "index.html",
+  "pt": "Ela roda só no computador em que foi instalada, para até 3 usuários, e não tem WhatsApp, link de acompanhamento nem N8N."
+ },
+ {
+  "k": "b842f51c6f",
+  "pagina": "index.html",
+  "pt": "Por que o Windows mostra um aviso ao instalar a versão grátis?"
  },
  {
   "k": "177616f4d8",
@@ -475,9 +750,9 @@
   "pt": "O instalador ainda não tem assinatura digital paga (o certificado de \"editor verificado\"), então o SmartScreen mostra \"editor desconhecido\". O arquivo é o mesmo publicado aqui; confira a integridade pelo hash abaixo."
  },
  {
-  "k": "64dfd5637e",
+  "k": "a0b1d1802f",
   "pagina": "index.html",
-  "pt": "Onde ficam os meus dados?"
+  "pt": "Onde ficam os dados da versão grátis?"
  },
  {
   "k": "1d8f798ac9",
@@ -485,39 +760,9 @@
   "pt": "No seu computador, em <code>%APPDATA%\\CRM Assistencia</code>. Ao desinstalar, o programa pergunta se você quer apagar os dados; o padrão é manter."
  },
  {
-  "k": "b580980b50",
+  "k": "a36b145445",
   "pagina": "index.html",
-  "pt": "Preciso de internet?"
- },
- {
-  "k": "ddd8bcade1",
-  "pagina": "index.html",
-  "pt": "Para o dia a dia, não. Só para recursos que dependem dela, como o WhatsApp da versão Pro."
- },
- {
-  "k": "dc23f7d388",
-  "pagina": "index.html",
-  "pt": "E se o computador desligar?"
- },
- {
-  "k": "1f7069c632",
-  "pagina": "index.html",
-  "pt": "Ao ligar de novo, abra o atalho do BancadaSync: seus dados e acessos voltam como estavam."
- },
- {
-  "k": "a45e8af037",
-  "pagina": "index.html",
-  "pt": "Como atualizo para uma versão nova?"
- },
- {
-  "k": "d48f5d98af",
-  "pagina": "index.html",
-  "pt": "Rode o instalador novo por cima. Ele desliga o sistema, troca os arquivos e mantém os seus dados."
- },
- {
-  "k": "e06680cc3d",
-  "pagina": "index.html",
-  "pt": "Como confiro se o arquivo é o original? (SHA-256 da versão 1.0.0)"
+  "pt": "Como confiro se o arquivo da versão grátis é o original? (SHA-256 da versão 1.0.0)"
  },
  {
   "k": "a8064a7f9f",
@@ -530,9 +775,9 @@
   "pt": "Fale com o desenvolvedor"
  },
  {
-  "k": "ab1349626a",
+  "k": "9570338625",
   "pagina": "index.html",
-  "pt": "Dúvidas, sugestões ou quer o Pro?"
+  "pt": "Dúvidas ou sugestões?"
  },
  {
   "k": "6b33921327",
@@ -540,9 +785,9 @@
   "pt": "Desenvolvido por <b style=\"color:var(--text)\">Jefferson Honorio (MeoWDev MOD)</b>."
  },
  {
-  "k": "b336fc5587",
+  "k": "108338cd4a",
   "pagina": "index.html",
-  "pt": "WhatsApp"
+  "pt": "Criar a minha conta"
  },
  {
   "k": "5721bbef40",

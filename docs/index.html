@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BancadaSync — gestão para assistência técnica, grátis</title>
-<meta name="description" content="Do check-in ao reparo entregue. Ordens de serviço, clientes, financeiro e garantia no seu computador. Grátis, sem mensalidade.">
+<title>BancadaSync — sistema online para assistência técnica, a partir de R$ 59,90/mês</title>
+<meta name="description" content="Ordens de serviço, clientes, financeiro, garantia e WhatsApp num sistema online para assistência técnica. Acesse do computador, tablet ou celular, com a equipe toda junta. Planos a partir de R$ 59,90 por mês. Também há versão grátis para um computador.">
 <meta name="theme-color" content="#14181c">
-<meta property="og:title" content="BancadaSync — gestão para assistência técnica">
-<meta property="og:description" content="Do check-in ao reparo entregue. Grátis, roda no seu computador.">
+<meta property="og:title" content="BancadaSync — sistema online para assistência técnica">
+<meta property="og:description" content="Do check-in ao reparo entregue, de qualquer aparelho. Planos a partir de R$ 59,90 por mês.">
 <meta property="og:image" content="https://techmeow.app/BancadaSync-Download/img/03-painel.png">
 <meta property="og:type" content="website">
 <link rel="icon" href="img/icon.png">
@@ -79,6 +79,37 @@ dialog{border:0;background:transparent;padding:0;max-width:96vw;max-height:94vh}
 dialog::backdrop{background:rgba(0,0,0,.85)}
 dialog img{max-height:92vh;width:auto;border-radius:12px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+/* venda do sistema online */
+.btn-lg{padding:15px 28px;font-size:1.05rem}
+.pill{display:inline-flex;align-items:center;gap:8px;font-size:.88rem;font-weight:700;color:var(--brand);border:1px solid color-mix(in srgb,var(--brand) 40%,transparent);background:color-mix(in srgb,var(--brand) 10%,transparent);padding:6px 14px;border-radius:999px;margin-bottom:18px}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 0 rgba(127,238,100,.7);animation:pulso 2s infinite}
+@keyframes pulso{70%{box-shadow:0 0 0 9px rgba(127,238,100,0)}100%{box-shadow:0 0 0 0 rgba(127,238,100,0)}}
+.facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:6px;padding:0;list-style:none;color:var(--muted);font-size:.95rem}
+.facts li::before{content:"✓";color:var(--brand);font-weight:800;margin-right:8px}
+.plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));margin-top:30px;align-items:stretch}
+.plan{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;transition:transform .2s,border-color .2s}
+.plan:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--brand) 55%,var(--line))}
+.plan.best{border-color:var(--brand);background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 9%,var(--surface)),var(--surface) 55%)}
+.plan .tag{position:absolute;top:-12px;left:24px;background:var(--brand);color:var(--brand-ink);font-size:.78rem;font-weight:800;padding:4px 12px;border-radius:999px}
+.plan h3{font-size:1.25rem;margin-bottom:4px}
+.plan .for{color:var(--muted);font-size:.93rem;min-height:2.8em;margin-bottom:14px}
+.plan .price{font-size:2.5rem;font-weight:800;letter-spacing:-.03em;line-height:1}
+.plan .price small{font-size:1rem;font-weight:600;color:var(--muted);letter-spacing:0}
+.plan ul{list-style:none;margin:20px 0 24px;padding:0;display:grid;gap:9px;flex:1;align-content:start}
+section[id]{scroll-margin-top:76px}
+.plan li{padding-left:26px;position:relative;font-size:.96rem}
+.plan li::before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:800}
+.plan .btn{width:100%}
+.compare td.c b{color:var(--text)}
+.free-box{display:grid;gap:28px;grid-template-columns:1.1fr .9fr;align-items:center}
+@media (max-width:860px){.free-box{grid-template-columns:1fr}}
+.free-box ul{margin:14px 0 0;padding-left:20px;color:var(--muted)}
+.free-box li{margin-bottom:6px}
+.mini-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+nav a.btn{white-space:nowrap;padding:10px 18px}
+@media (max-width:640px){nav a.btn-ghost{display:none}nav{gap:10px}nav a.btn{padding:9px 14px;font-size:.92rem}.hero{padding-top:36px}.cta .btn{width:100%}}
+@media (prefers-reduced-motion:reduce){.pill i{animation:none}.plan{transition:none}}
+
 
 /* planos */
 table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
@@ -144,8 +175,10 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
     <nav>
       <a class="link" href="#resolve">O que resolve</a>
       <a class="link" href="#prints">Prints</a>
-      <a class="link" href="#planos">Grátis e Pro</a>
-      <a class="btn btn-primary" href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe">Baixar grátis</a>
+      <a class="link" href="#planos">Planos</a>
+      <a class="link" href="#gratis">Versão grátis</a>
+      <a class="btn btn-ghost" href="https://bancadasync.discloud.app/login">Entrar</a>
+      <a class="btn btn-primary" href="https://bancadasync.discloud.app/cadastro">Ver planos</a>
       <!--i18n:menu--><div class="i18n-menu" data-i18n-menu><button type="button" class="i18n-btn" aria-haspopup="true" aria-expanded="false" aria-label="Idioma: Português" title="Idioma"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.8 3.9 9s-1.3 6.2-3.9 9c-2.6-2.8-3.9-5.8-3.9-9s1.3-6.2 3.9-9z"/></svg><span>PT</span></button><ul class="i18n-lista" hidden><li><a href="./" hreflang="pt-BR" lang="pt-BR" data-lang="pt" aria-current="true"><b>PT</b>Português</a></li><li><a href="en/" hreflang="en" lang="en" data-lang="en"><b>EN</b>English</a></li><li><a href="es/" hreflang="es" lang="es" data-lang="es"><b>ES</b>Español</a></li><li><a href="ru/" hreflang="ru" lang="ru" data-lang="ru"><b>RU</b>Русский</a></li></ul></div><!--/i18n:menu-->
     </nav>
   </div>
@@ -154,15 +187,19 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
 <main>
 <section class="hero">
   <div class="wrap">
-    <span class="eyebrow">Gestão para assistência técnica</span>
-    <h1>Do check-in ao<br>reparo entregue.</h1>
-    <p class="lead">Ordens de serviço, clientes, financeiro e garantia em um só lugar. O sistema roda no seu computador: sem mensalidade e sem depender de internet para trabalhar.</p>
+    <span class="pill"><i></i>Sistema online, pronto para usar</span>
+    <h1>A sua assistência técnica<br>organizada, de qualquer lugar.</h1>
+    <p class="lead">Ordens de serviço, clientes, financeiro, garantia e WhatsApp num só sistema. Entre pelo computador, pelo tablet ou pelo celular, e a equipe inteira trabalha junta, ao mesmo tempo.</p>
     <div class="cta">
-      <a class="btn btn-primary" href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe">⬇ Baixar para Windows (85 MB)</a>
-      <a class="btn btn-ghost" href="#prints">Ver o sistema por dentro</a>
+      <a class="btn btn-primary btn-lg" href="https://bancadasync.discloud.app/cadastro">Ver planos e criar a conta</a>
+      <a class="btn btn-ghost btn-lg" href="https://bancadasync.discloud.app/login">Já tenho conta · Entrar</a>
     </div>
-    <p class="fine">Windows 10 ou 11 · instala sem senha de administrador · leva poucos minutos</p>
-    <div class="shot"><img src="img/03-painel.png" alt="Painel ao vivo do BancadaSync com atendimentos ativos, pendências e números do mês" width="1440" height="900"></div>
+    <ul class="facts">
+      <li>Planos a partir de R$ 59,90 por mês</li>
+      <li>Liberado assim que o pagamento é confirmado</li>
+      <li>Não precisa instalar nada</li>
+    </ul>
+    <div class="shot" style="margin-top:44px"><img src="img/03-painel.png" alt="Painel ao vivo do BancadaSync com atendimentos ativos, pendências e números do mês" width="1440" height="900"></div>
   </div>
 </section>
 
@@ -174,13 +211,13 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
     <div class="grid cards" style="margin-top:28px">
       <div class="card"><div class="q">"O que veio junto com o aparelho?"</div><h3>Check-in sem esquecer nada</h3><p>Cliente, aparelho, número de série, acessórios e defeito informado ficam registrados na ordem de serviço, já no balcão.</p></div>
       <div class="card"><div class="q">"Em que pé está esse conserto?"</div><h3>Status de cada OS</h3><p>Orçamento, aprovado, recebido, em análise, aguardando peça, pronto e entregue: tudo visível na lista e no painel.</p></div>
+      <div class="card"><div class="q">"O cliente liga toda hora perguntando."</div><h3>Link de acompanhamento</h3><p>O cliente acompanha o conserto pelo celular dele, sem precisar ligar para a loja.</p></div>
       <div class="card"><div class="q">"Qual OS está esperando peça?"</div><h3>Painel ao vivo e pendências</h3><p>Veja os atendimentos ativos, o que aguarda peças e o que já está pronto para retirada.</p></div>
       <div class="card"><div class="q">"O cliente diz que não assinou nada."</div><h3>OS impressa profissional</h3><p>Nota de serviço com dados da loja, itens, total, prazos, garantia e campo de assinatura do cliente.</p></div>
-      <div class="card"><div class="q">"Qual era a garantia mesmo?"</div><h3>Garantia por escrito</h3><p>Termos de garantia por tipo de serviço, impressos junto com a OS.</p></div>
       <div class="card"><div class="q">"Quanto entrou e quanto saiu?"</div><h3>Financeiro de verdade</h3><p>OS entregue vira entrada sozinha. Saídas, despesas fixas, balanço do mês e exportação em PDF.</p></div>
       <div class="card"><div class="q">"Quanto devo de comissão?"</div><h3>Comissão por técnico</h3><p>Calculada sobre os reparos entregues, sem conta de cabeça no fim do mês.</p></div>
       <div class="card"><div class="q">"Quem mexeu nisso?"</div><h3>Equipe com controle</h3><p>Permissões por função (dono, administrador, atendente, técnico, coleta) e auditoria do que foi feito.</p></div>
-      <div class="card"><div class="q">"E se a internet cair?"</div><h3>Dados no seu computador</h3><p>Seus dados ficam com você, em um banco local. Trabalhe normalmente, sem mensalidade.</p></div>
+      <div class="card"><div class="q">"Estou na rua e preciso ver a loja."</div><h3>Acesso de qualquer aparelho</h3><p>Abra no computador, no tablet ou no celular, com o mesmo login e os mesmos dados, de dentro ou de fora da loja.</p></div>
     </div>
   </div>
 </section>
@@ -197,68 +234,144 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
       <figure><button type="button" data-zoom><div class="shot"><img loading="lazy" src="img/08-financeiro.png" alt="Tela de financeiro com faturamento, saídas e balanço do mês" width="1440" height="900"></div></button><figcaption><b>Financeiro.</b> Faturamento, saídas, balanço mensal e despesas fixas.</figcaption></figure>
       <figure><button type="button" data-zoom><div class="shot"><img loading="lazy" src="img/07-clientes.png" alt="Cadastro de clientes" width="1440" height="900"></div></button><figcaption><b>Clientes.</b> Cadastro com o histórico de cada um.</figcaption></figure>
       <figure><button type="button" data-zoom><div class="shot"><img loading="lazy" src="img/09-agenda.png" alt="Agenda mensal de atendimentos" width="1440" height="900"></div></button><figcaption><b>Agenda.</b> Atendimentos do dia, da semana e do mês.</figcaption></figure>
-      <figure><button type="button" data-zoom><div class="shot"><img loading="lazy" src="img/01-primeiro-acesso.png" alt="Tela de primeiro acesso para criar a loja e o usuário" width="1440" height="900"></div></button><figcaption><b>Primeiro acesso.</b> Crie a sua loja e o seu usuário em um minuto.</figcaption></figure>
-      <figure><button type="button" data-zoom><div class="shot"><img loading="lazy" src="img/02-login.png" alt="Tela de login do BancadaSync" width="1440" height="900"></div></button><figcaption><b>Login.</b> Acesso seguro com e-mail e senha.</figcaption></figure>
     </div>
+    <div class="mini-cta"><a class="btn btn-primary" href="https://bancadasync.discloud.app/cadastro">Quero usar o BancadaSync</a></div>
   </div>
 </section>
 
 <section id="planos">
   <div class="wrap">
-    <span class="eyebrow">Grátis e Pro</span>
-    <h2>Comece de graça. Cresça quando precisar.</h2>
-    <p class="muted" style="max-width:62ch">A versão grátis já resolve o básico de uma assistência. O Pro libera integrações e acesso de qualquer lugar.</p>
-    <div class="table-scroll" style="margin-top:24px">
-      <table>
-        <thead><tr><th>Recurso</th><th class="c">Grátis</th><th class="c">Pro</th></tr></thead>
-        <tbody>
-          <tr><td>Ordens de serviço, impressão e garantia</td><td class="c yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>Clientes, equipamentos, produtos, serviços e fornecedores</td><td class="c yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>Financeiro e comissões</td><td class="c yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>Auditoria e permissões por função</td><td class="c yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>Usuários</td><td class="c">até 3</td><td class="c yes">ilimitados</td></tr>
-          <tr><td>Link de acompanhamento para o cliente</td><td class="c lock">🔒</td><td class="c yes">✓</td></tr>
-          <tr><td>WhatsApp integrado e modelos de mensagem</td><td class="c lock">🔒</td><td class="c yes">✓</td></tr>
-          <tr><td>Integração por API / N8N</td><td class="c lock">🔒</td><td class="c yes">✓</td></tr>
-          <tr><td>Acesso no desktop, tablet e celular</td><td class="c lock">🔒</td><td class="c yes">✓</td></tr>
-          <tr><td>Acompanhar a distância, em tempo real, quando a loja está faturando</td><td class="c lock">🔒</td><td class="c yes">✓</td></tr>
-        </tbody>
-      </table>
+    <span class="eyebrow">Planos do sistema online</span>
+    <h2>Escolha o plano e comece hoje.</h2>
+    <p class="muted" style="max-width:62ch">Você cria a conta, confirma o e-mail e faz o pagamento. Assim que o pagamento é confirmado, o sistema é liberado, sem esperar por ninguém.</p>
+    <div class="plans">
+      <div class="plan">
+        <h3>Inicial</h3>
+        <p class="for">Para a assistência que está organizando o balcão.</p>
+        <div class="price">R$ 59,90 <small>/mês</small></div>
+        <ul>
+          <li>Até 400 OS por mês</li>
+          <li>Você + 2 funcionários</li>
+          <li>Clientes e equipamentos</li>
+          <li>Estoque</li>
+          <li>Portal do cliente</li>
+          <li>Financeiro</li>
+        </ul>
+        <a class="btn btn-ghost" href="https://bancadasync.discloud.app/cadastro">Escolher o Inicial</a>
+      </div>
+      <div class="plan best">
+        <span class="tag">Recomendado</span>
+        <h3>Profissional</h3>
+        <p class="for">Para a loja com equipe, que atende pelo WhatsApp.</p>
+        <div class="price">R$ 120,00 <small>/mês</small></div>
+        <ul>
+          <li>Tudo do Inicial</li>
+          <li>Até 600 OS por mês</li>
+          <li>Até 8 usuários</li>
+          <li>Vendas (balcão)</li>
+          <li>Permissões por função</li>
+          <li>WhatsApp</li>
+          <li>Relatórios</li>
+        </ul>
+        <a class="btn btn-primary" href="https://bancadasync.discloud.app/cadastro">Escolher o Profissional</a>
+      </div>
+      <div class="plan">
+        <h3>Empresarial</h3>
+        <p class="for">Para a operação grande, sem limite de OS e de usuários.</p>
+        <div class="price">R$ 349,90 <small>/mês</small></div>
+        <ul>
+          <li>Tudo do Profissional</li>
+          <li>OS e usuários ilimitados</li>
+          <li>Auditoria avançada</li>
+          <li>Automação com N8N</li>
+          <li>Suporte prioritário</li>
+        </ul>
+        <a class="btn btn-ghost" href="https://bancadasync.discloud.app/cadastro">Escolher o Empresarial</a>
+      </div>
     </div>
-    <div class="cta">
-      <a class="btn btn-ghost" href="https://wa.me/5521966547296">Quero o Pro (WhatsApp)</a>
+    <div class="mini-cta">
+      <a class="btn btn-ghost" href="https://bancadasync.discloud.app/login">Já sou cliente · Entrar no sistema</a>
+      <a class="btn btn-ghost" href="https://wa.me/5521966547296">Tirar dúvidas no WhatsApp</a>
     </div>
   </div>
 </section>
 
-<section id="instalar" style="background:var(--surface);border-block:1px solid var(--line)">
+<section id="comparar" style="background:var(--surface);border-block:1px solid var(--line)">
   <div class="wrap">
-    <span class="eyebrow">Como instalar</span>
-    <h2>Pronto para usar em poucos minutos</h2>
-    <div class="grid cards steps" style="margin-top:28px">
-      <div class="card step"><h3>Baixe o instalador</h3><p>Clique em "Baixar grátis" e salve o <code>BancadaSync-Setup.exe</code>.</p></div>
-      <div class="card step"><h3>Instale</h3><p>Dê dois cliques e siga o assistente. Se o Windows avisar, clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>. Não precisa de senha de administrador.</p></div>
-      <div class="card step"><h3>Crie a sua loja</h3><p>Abra o BancadaSync. Na primeira tela, informe os dados da assistência e crie seu usuário e senha. Pronto.</p></div>
+    <span class="eyebrow">Online ou grátis</span>
+    <h2>Qual é a diferença?</h2>
+    <p class="muted" style="max-width:62ch">A versão grátis funciona só no computador em que foi instalada. O sistema online funciona em qualquer aparelho, para a equipe toda.</p>
+    <div class="table-scroll compare" style="margin-top:24px">
+      <table>
+        <thead><tr><th>Recurso</th><th class="c">Grátis (no seu computador)</th><th class="c">Online (planos)</th></tr></thead>
+        <tbody>
+          <tr><td>Ordens de serviço, impressão e garantia</td><td class="c yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td>Clientes, equipamentos, produtos e serviços</td><td class="c yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td>Financeiro e comissões</td><td class="c yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td>Acesso pelo computador, tablet e celular</td><td class="c lock">🔒 só no computador onde foi instalado</td><td class="c yes">✓</td></tr>
+          <tr><td>Equipe usando ao mesmo tempo, em aparelhos diferentes</td><td class="c lock">🔒</td><td class="c yes">✓</td></tr>
+          <tr><td>Usuários</td><td class="c">até 3</td><td class="c yes">de 3 até ilimitados, conforme o plano</td></tr>
+          <tr><td>Link de acompanhamento para o cliente</td><td class="c lock">🔒</td><td class="c yes">✓</td></tr>
+          <tr><td>WhatsApp integrado e modelos de mensagem</td><td class="c lock">🔒</td><td class="c yes">✓ no Profissional e no Empresarial</td></tr>
+          <tr><td>Integração por N8N</td><td class="c lock">🔒</td><td class="c yes">✓ no Empresarial</td></tr>
+          <tr><td>Preço</td><td class="c"><b>Grátis</b></td><td class="c"><b>a partir de R$ 59,90/mês</b></td></tr>
+        </tbody>
+      </table>
     </div>
-    <div class="cta"><a class="btn btn-primary" href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe">⬇ Baixar para Windows</a></div>
+    <div class="mini-cta"><a class="btn btn-primary" href="https://bancadasync.discloud.app/cadastro">Ver os planos online</a></div>
+  </div>
+</section>
 
-    <h3 style="margin-top:48px">Perguntas frequentes</h3>
-    <details><summary>Por que o Windows mostra um aviso ao instalar?</summary><p>O instalador ainda não tem assinatura digital paga (o certificado de "editor verificado"), então o SmartScreen mostra "editor desconhecido". O arquivo é o mesmo publicado aqui; confira a integridade pelo hash abaixo.</p></details>
-    <details><summary>Onde ficam os meus dados?</summary><p>No seu computador, em <code>%APPDATA%\CRM Assistencia</code>. Ao desinstalar, o programa pergunta se você quer apagar os dados; o padrão é manter.</p></details>
-    <details><summary>Preciso de internet?</summary><p>Para o dia a dia, não. Só para recursos que dependem dela, como o WhatsApp da versão Pro.</p></details>
-    <details><summary>E se o computador desligar?</summary><p>Ao ligar de novo, abra o atalho do BancadaSync: seus dados e acessos voltam como estavam.</p></details>
-    <details><summary>Como atualizo para uma versão nova?</summary><p>Rode o instalador novo por cima. Ele desliga o sistema, troca os arquivos e mantém os seus dados.</p></details>
-    <details><summary>Como confiro se o arquivo é o original? (SHA-256 da versão 1.0.0)</summary><p><code>1d10463c9d5ac24ce16623b04e5573c4cbf718de99053cb7d86f108681689fa7</code><br>No PowerShell: <code>Get-FileHash .\BancadaSync-Setup.exe -Algorithm SHA256</code></p></details>
+<section id="gratis">
+  <div class="wrap free-box">
+    <div>
+      <span class="eyebrow">Versão grátis</span>
+      <h2>Quer testar no seu computador primeiro?</h2>
+      <p class="muted">A versão grátis é um programa para Windows. Ela já resolve o básico da assistência, mas só funciona no computador em que você instalou.</p>
+      <ul>
+        <li>Roda no seu computador, sem mensalidade</li>
+        <li>Até 3 usuários</li>
+        <li>Sem acesso pelo celular ou por outros aparelhos</li>
+        <li>Sem WhatsApp, sem link de acompanhamento e sem N8N</li>
+      </ul>
+      <div class="mini-cta">
+        <a class="btn btn-ghost" href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe">⬇ Baixar grátis para Windows (85 MB)</a>
+      </div>
+      <p class="fine" style="margin-top:12px">Windows 10 ou 11 · instala sem senha de administrador · leva poucos minutos</p>
+    </div>
+    <div class="card">
+      <h3>Como instalar</h3>
+      <ol style="margin:12px 0 0;padding-left:20px;color:var(--muted)">
+        <li style="margin-bottom:8px">Baixe e salve o <code>BancadaSync-Setup.exe</code>.</li>
+        <li style="margin-bottom:8px">Dê dois cliques e siga o assistente. Se o Windows avisar, clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>.</li>
+        <li>Abra o BancadaSync e crie a sua loja e o seu usuário.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="background:var(--surface);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <span class="eyebrow">Perguntas frequentes</span>
+    <h2>Ainda com dúvida?</h2>
+    <details><summary>Preciso instalar alguma coisa no sistema online?</summary><p>Não. É só entrar pelo navegador do computador, do tablet ou do celular, com o seu e-mail e senha.</p></details>
+    <details><summary>Quando o sistema é liberado depois que eu pago?</summary><p>Assim que o pagamento é confirmado. Você cria a conta, confirma o e-mail e faz o pagamento; a liberação é automática.</p></details>
+    <details><summary>Qual plano escolher?</summary><p>O Inicial atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários.</p></details>
+    <details><summary>Qual é o limite da versão grátis?</summary><p>Ela roda só no computador em que foi instalada, para até 3 usuários, e não tem WhatsApp, link de acompanhamento nem N8N.</p></details>
+    <details><summary>Por que o Windows mostra um aviso ao instalar a versão grátis?</summary><p>O instalador ainda não tem assinatura digital paga (o certificado de "editor verificado"), então o SmartScreen mostra "editor desconhecido". O arquivo é o mesmo publicado aqui; confira a integridade pelo hash abaixo.</p></details>
+    <details><summary>Onde ficam os dados da versão grátis?</summary><p>No seu computador, em <code>%APPDATA%\CRM Assistencia</code>. Ao desinstalar, o programa pergunta se você quer apagar os dados; o padrão é manter.</p></details>
+    <details><summary>Como confiro se o arquivo da versão grátis é o original? (SHA-256 da versão 1.0.0)</summary><p><code>1d10463c9d5ac24ce16623b04e5573c4cbf718de99053cb7d86f108681689fa7</code><br>No PowerShell: <code>Get-FileHash .\BancadaSync-Setup.exe -Algorithm SHA256</code></p></details>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     <span class="eyebrow">Fale com o desenvolvedor</span>
-    <h2>Dúvidas, sugestões ou quer o Pro?</h2>
+    <h2>Dúvidas ou sugestões?</h2>
     <p class="muted">Desenvolvido por <b style="color:var(--text)">Jefferson Honorio (MeoWDev MOD)</b>.</p>
     <div class="contact">
-      <a class="btn btn-primary" href="https://wa.me/5521966547296">WhatsApp</a>
+      <a class="btn btn-primary" href="https://bancadasync.discloud.app/cadastro">Criar a minha conta</a>
+      <a class="btn btn-ghost" href="https://wa.me/5521966547296">WhatsApp</a>
       <a class="btn btn-ghost" href="https://www.instagram.com/tech_meow.oficial?cplk=MWp5Z2s2cjNuNG01bg==">Instagram</a>
       <a class="btn btn-ghost" href="https://linktr.ee/tech_meow?utm_source=linktree_profile_share&amp;ltsid=531414a6-986b-4891-a08f-9445b634b839">Site Tech MeoW</a>
       <a class="btn btn-ghost" href="mailto:vendas.hson@gmail.com">E-mail</a>
