@@ -491,3 +491,27 @@ Sistema en línea para talleres: órdenes, cola de producción, WhatsApp, invent
 R$ 89,90 <small>/mes</small>
 @@ 4866d6d273
 R$ 149,90 <small>/mes</small>
+@@ 303ce531ce
+Básico
+@@ 7e3a8dce1a
+El Básico es para quien está empezando, con hasta 400 órdenes por mes y usted más 2 empleados. El Profesional sirve para talleres con equipo y WhatsApp, con hasta 600 órdenes y 8 usuarios. El Empresarial no tiene límite de órdenes ni de usuarios.
+@@ 9766768c11
+Elija su plan.
+@@ 1fdbe3be3a
+Empiece gratis en su computador o suscríbase al sistema en línea para usarlo desde cualquier dispositivo. En los planes en línea, usted crea la cuenta, confirma el correo y paga; en cuanto se confirma el pago, el sistema se activa. Sin permanencia: usted paga mes a mes.
+@@ 552947c54f
+Para probar en su computador, sin pagar nada.
+@@ 610b689fec
+R$ 0 <small>en su computador</small>
+@@ 81ad611da8
+Programa para Windows
+@@ 4db24ba4f2
+Clientes, inventario y finanzas
+@@ d2ca30c363
+Solo en el computador donde se instaló
+@@ 4808cf3f54
+⬇ Descargar gratis
+@@ 2183235623
+Elegir el Básico
+@@ 5cbcf14d1c
+Todo lo del Básico

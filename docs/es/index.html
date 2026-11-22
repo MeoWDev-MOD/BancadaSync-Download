@@ -43,7 +43,14 @@
   "offers": [
     {
       "@type": "Offer",
-      "name": "Inicial",
+      "name": "Gratis",
+      "price": "0",
+      "priceCurrency": "BRL",
+      "url": "https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe"
+    },
+    {
+      "@type": "Offer",
+      "name": "Básico",
       "price": "59.90",
       "priceCurrency": "BRL",
       "url": "https://bancadasync.discloud.app/cadastro"
@@ -91,7 +98,7 @@
       "name": "¿Qué plan elegir?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "El Inicial es para quien está empezando, con hasta 400 órdenes por mes y usted más 2 empleados. El Profesional sirve para talleres con equipo y WhatsApp, con hasta 600 órdenes y 8 usuarios. El Empresarial no tiene límite de órdenes ni de usuarios."
+        "text": "El Básico es para quien está empezando, con hasta 400 órdenes por mes y usted más 2 empleados. El Profesional sirve para talleres con equipo y WhatsApp, con hasta 600 órdenes y 8 usuarios. El Empresarial no tiene límite de órdenes ni de usuarios."
       }
     },
     {
@@ -212,20 +219,22 @@ dialog img{max-height:92vh;width:auto;border-radius:12px}
 @keyframes pulso{70%{box-shadow:0 0 0 9px rgba(127,238,100,0)}100%{box-shadow:0 0 0 0 rgba(127,238,100,0)}}
 .facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:6px;padding:0;list-style:none;color:var(--muted);font-size:.95rem}
 .facts li::before{content:"✓";color:var(--brand);font-weight:800;margin-right:8px}
-.plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));margin-top:30px;align-items:stretch}
+.plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));margin-top:30px;align-items:stretch}
 .plan{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;transition:transform .2s,border-color .2s}
 .plan:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--brand) 55%,var(--line))}
 .plan.best{border-color:var(--brand);background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 9%,var(--surface)),var(--surface) 55%)}
 .plan .tag{position:absolute;top:-12px;left:24px;background:var(--brand);color:var(--brand-ink);font-size:.78rem;font-weight:800;padding:4px 12px;border-radius:999px}
 .plan h3{font-size:1.25rem;margin-bottom:4px}
 .plan .for{color:var(--muted);font-size:.93rem;min-height:2.8em;margin-bottom:14px}
-.plan .price{font-size:2.5rem;font-weight:800;letter-spacing:-.03em;line-height:1}
+.plan .price{font-size:2.15rem;font-weight:800;letter-spacing:-.03em;line-height:1;white-space:nowrap}
 .plan .price small{font-size:1rem;font-weight:600;color:var(--muted);letter-spacing:0}
 .plan ul{list-style:none;margin:20px 0 24px;padding:0;display:grid;gap:9px;flex:1;align-content:start}
 section[id]{scroll-margin-top:76px}
 .plan li{padding-left:26px;position:relative;font-size:.96rem}
 .plan li::before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:800}
 .plan .btn{width:100%}
+.plan.free{border-style:dashed}
+.plan.free .price small{display:block;margin-top:6px}
 .compare td.c b{color:var(--text)}
 .free-box{display:grid;gap:28px;grid-template-columns:1.1fr .9fr;align-items:center}
 @media (max-width:860px){.free-box{grid-template-columns:1fr}}
@@ -379,12 +388,25 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
 
 <section id="planos">
   <div class="wrap">
-    <span class="eyebrow">Planes del sistema en línea</span>
-    <h2>Elija un plan y empiece hoy.</h2>
-    <p class="muted" style="max-width:62ch">Usted crea la cuenta, confirma el correo y hace el pago. En cuanto se confirma el pago, el sistema se activa, sin esperar a nadie. Sin permanencia: usted paga mes a mes.</p>
+    <span class="eyebrow">Planes</span>
+    <h2>Elija su plan.</h2>
+    <p class="muted" style="max-width:62ch">Empiece gratis en su computador o suscríbase al sistema en línea para usarlo desde cualquier dispositivo. En los planes en línea, usted crea la cuenta, confirma el correo y paga; en cuanto se confirma el pago, el sistema se activa. Sin permanencia: usted paga mes a mes.</p>
     <div class="plans">
+      <div class="plan free">
+        <h3>Gratis</h3>
+        <p class="for">Para probar en su computador, sin pagar nada.</p>
+        <div class="price">R$ 0 <small>en su computador</small></div>
+        <ul>
+          <li>Programa para Windows</li>
+          <li>Órdenes de servicio, impresión y garantía</li>
+          <li>Clientes, inventario y finanzas</li>
+          <li>Hasta 3 usuarios</li>
+          <li>Solo en el computador donde se instaló</li>
+        </ul>
+        <a class="btn btn-ghost" href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe">⬇ Descargar gratis</a>
+      </div>
       <div class="plan">
-        <h3>Inicial</h3>
+        <h3>Básico</h3>
         <p class="for">Para el taller que está organizando el mostrador.</p>
         <div class="price">R$ 59,90 <small>/mes</small></div>
         <ul>
@@ -395,7 +417,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
           <li>Portal del cliente</li>
           <li>Finanzas</li>
         </ul>
-        <a class="btn btn-ghost" href="https://bancadasync.discloud.app/cadastro">Elegir el Inicial</a>
+        <a class="btn btn-ghost" href="https://bancadasync.discloud.app/cadastro">Elegir el Básico</a>
       </div>
       <div class="plan best">
         <span class="tag">Recomendado</span>
@@ -403,7 +425,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
         <p class="for">Para el taller con equipo que atiende por WhatsApp.</p>
         <div class="price">R$ 89,90 <small>/mes</small></div>
         <ul>
-          <li>Todo lo del Inicial</li>
+          <li>Todo lo del Básico</li>
           <li>Hasta 600 órdenes por mes</li>
           <li>Hasta 8 usuarios</li>
           <li>Ventas (mostrador)</li>
@@ -494,7 +516,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
     <h2>¿Todavía tiene dudas?</h2>
     <details><summary>¿Necesito instalar algo para el sistema en línea?</summary><p>No. Solo entre desde el navegador del computador, la tableta o el celular, con su correo y contraseña.</p></details>
     <details><summary>¿Cuándo se activa el sistema después de pagar?</summary><p>En cuanto se confirma el pago. Usted crea la cuenta, confirma el correo y paga; la activación es automática.</p></details>
-    <details><summary>¿Qué plan elegir?</summary><p>El Inicial es para quien está empezando, con hasta 400 órdenes por mes y usted más 2 empleados. El Profesional sirve para talleres con equipo y WhatsApp, con hasta 600 órdenes y 8 usuarios. El Empresarial no tiene límite de órdenes ni de usuarios.</p></details>
+    <details><summary>¿Qué plan elegir?</summary><p>El Básico es para quien está empezando, con hasta 400 órdenes por mes y usted más 2 empleados. El Profesional sirve para talleres con equipo y WhatsApp, con hasta 600 órdenes y 8 usuarios. El Empresarial no tiene límite de órdenes ni de usuarios.</p></details>
     <details><summary>¿Para qué tipo de taller de reparación sirve?</summary><p>Para talleres de celulares, notebooks, consolas de videojuegos, TV y otros aparatos electrónicos. Usted registra los tipos de equipo que atiende su taller.</p></details>
     <details><summary>¿Hay aplicación para el celular?</summary><p>Funciona en el navegador y se puede instalar en la pantalla de inicio del celular como una aplicación, sin pasar por una tienda de aplicaciones.</p></details>
     <details><summary>¿Hay permanencia o contrato?</summary><p>No. El pago es mes a mes: usted renueva cuando quiera, sin contrato de permanencia.</p></details>

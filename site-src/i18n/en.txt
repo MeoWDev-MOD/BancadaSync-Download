@@ -491,3 +491,27 @@ Online system for repair shops: orders, production queue, WhatsApp, inventory an
 R$89.90 <small>/month</small>
 @@ 4866d6d273
 R$149.90 <small>/month</small>
+@@ 303ce531ce
+Basic
+@@ 7e3a8dce1a
+Basic suits those just beginning, with up to 400 orders per month and you plus 2 employees. Professional is for shops with a team and WhatsApp, with up to 600 orders and 8 users. Business has no limit on orders or users.
+@@ 9766768c11
+Choose your plan.
+@@ 1fdbe3be3a
+Start free on your computer or subscribe to the online system to use it from any device. On the online plans, you create the account, confirm your e-mail and pay; as soon as the payment is confirmed, the system is activated. No lock-in: you pay month to month.
+@@ 552947c54f
+To try on your computer, at no cost.
+@@ 610b689fec
+R$0 <small>on your computer</small>
+@@ 81ad611da8
+Windows program
+@@ 4db24ba4f2
+Customers, inventory and finances
+@@ d2ca30c363
+Only on the computer where it was installed
+@@ 4808cf3f54
+⬇ Free download
+@@ 2183235623
+Choose Basic
+@@ 5cbcf14d1c
+Everything in Basic

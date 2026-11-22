@@ -43,7 +43,14 @@
   "offers": [
     {
       "@type": "Offer",
-      "name": "Начальный",
+      "name": "Бесплатно",
+      "price": "0",
+      "priceCurrency": "BRL",
+      "url": "https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe"
+    },
+    {
+      "@type": "Offer",
+      "name": "Базовый",
       "price": "59.90",
       "priceCurrency": "BRL",
       "url": "https://bancadasync.discloud.app/cadastro"
@@ -91,7 +98,7 @@
       "name": "Какой тариф выбрать?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "«Начальный» подходит тем, кто только начинает: до 400 заказов в месяц, вы и 2 сотрудника. «Профессиональный» — для мастерских с командой и WhatsApp: до 600 заказов и 8 пользователей. В «Бизнесе» нет ограничений по заказам и пользователям."
+        "text": "«Базовый» подходит тем, кто только начинает: до 400 заказов в месяц, вы и 2 сотрудника. «Профессиональный» — для мастерских с командой и WhatsApp: до 600 заказов и 8 пользователей. В «Бизнесе» нет ограничений по заказам и пользователям."
       }
     },
     {
@@ -212,20 +219,22 @@ dialog img{max-height:92vh;width:auto;border-radius:12px}
 @keyframes pulso{70%{box-shadow:0 0 0 9px rgba(127,238,100,0)}100%{box-shadow:0 0 0 0 rgba(127,238,100,0)}}
 .facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:6px;padding:0;list-style:none;color:var(--muted);font-size:.95rem}
 .facts li::before{content:"✓";color:var(--brand);font-weight:800;margin-right:8px}
-.plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));margin-top:30px;align-items:stretch}
+.plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));margin-top:30px;align-items:stretch}
 .plan{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;transition:transform .2s,border-color .2s}
 .plan:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--brand) 55%,var(--line))}
 .plan.best{border-color:var(--brand);background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 9%,var(--surface)),var(--surface) 55%)}
 .plan .tag{position:absolute;top:-12px;left:24px;background:var(--brand);color:var(--brand-ink);font-size:.78rem;font-weight:800;padding:4px 12px;border-radius:999px}
 .plan h3{font-size:1.25rem;margin-bottom:4px}
 .plan .for{color:var(--muted);font-size:.93rem;min-height:2.8em;margin-bottom:14px}
-.plan .price{font-size:2.5rem;font-weight:800;letter-spacing:-.03em;line-height:1}
+.plan .price{font-size:2.15rem;font-weight:800;letter-spacing:-.03em;line-height:1;white-space:nowrap}
 .plan .price small{font-size:1rem;font-weight:600;color:var(--muted);letter-spacing:0}
 .plan ul{list-style:none;margin:20px 0 24px;padding:0;display:grid;gap:9px;flex:1;align-content:start}
 section[id]{scroll-margin-top:76px}
 .plan li{padding-left:26px;position:relative;font-size:.96rem}
 .plan li::before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:800}
 .plan .btn{width:100%}
+.plan.free{border-style:dashed}
+.plan.free .price small{display:block;margin-top:6px}
 .compare td.c b{color:var(--text)}
 .free-box{display:grid;gap:28px;grid-template-columns:1.1fr .9fr;align-items:center}
 @media (max-width:860px){.free-box{grid-template-columns:1fr}}
@@ -379,12 +388,25 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
 
 <section id="planos">
   <div class="wrap">
-    <span class="eyebrow">Тарифы онлайн-системы</span>
-    <h2>Выберите тариф и начните сегодня.</h2>
-    <p class="muted" style="max-width:62ch">Вы создаёте аккаунт, подтверждаете e-mail и оплачиваете. Как только оплата подтверждена, система открывается автоматически, никого ждать не нужно. Без обязательств: оплата помесячно.</p>
+    <span class="eyebrow">Тарифы</span>
+    <h2>Выберите свой тариф.</h2>
+    <p class="muted" style="max-width:62ch">Начните бесплатно на своём компьютере или подпишитесь на онлайн-систему, чтобы работать с любого устройства. В онлайн-тарифах вы создаёте аккаунт, подтверждаете e-mail и платите; как только оплата подтверждена, система открывается. Без обязательств: оплата помесячно.</p>
     <div class="plans">
+      <div class="plan free">
+        <h3>Бесплатно</h3>
+        <p class="for">Чтобы попробовать на своём компьютере, бесплатно.</p>
+        <div class="price">0 R$ <small>на вашем компьютере</small></div>
+        <ul>
+          <li>Программа для Windows</li>
+          <li>Заказ-наряды, печать и гарантия</li>
+          <li>Клиенты, склад и финансы</li>
+          <li>До 3 пользователей</li>
+          <li>Только на компьютере, где установлено</li>
+        </ul>
+        <a class="btn btn-ghost" href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe">⬇ Скачать бесплатно</a>
+      </div>
       <div class="plan">
-        <h3>Начальный</h3>
+        <h3>Базовый</h3>
         <p class="for">Для мастерской, которая наводит порядок на стойке приёма.</p>
         <div class="price">59,90 R$ <small>/мес.</small></div>
         <ul>
@@ -395,7 +417,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
           <li>Портал клиента</li>
           <li>Финансы</li>
         </ul>
-        <a class="btn btn-ghost" href="https://bancadasync.discloud.app/cadastro">Выбрать «Начальный»</a>
+        <a class="btn btn-ghost" href="https://bancadasync.discloud.app/cadastro">Выбрать «Базовый»</a>
       </div>
       <div class="plan best">
         <span class="tag">Рекомендуем</span>
@@ -403,7 +425,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
         <p class="for">Для мастерской с командой, которая общается с клиентами в WhatsApp.</p>
         <div class="price">89,90 R$ <small>/мес.</small></div>
         <ul>
-          <li>Всё из тарифа «Начальный»</li>
+          <li>Всё из тарифа «Базовый»</li>
           <li>До 600 заказов в месяц</li>
           <li>До 8 пользователей</li>
           <li>Продажи (касса)</li>
@@ -494,7 +516,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
     <h2>Остались вопросы?</h2>
     <details><summary>Нужно ли что-то устанавливать для онлайн-системы?</summary><p>Нет. Просто войдите через браузер на компьютере, планшете или телефоне, указав e-mail и пароль.</p></details>
     <details><summary>Когда система открывается после оплаты?</summary><p>Сразу после подтверждения оплаты. Вы создаёте аккаунт, подтверждаете e-mail и платите; доступ открывается автоматически.</p></details>
-    <details><summary>Какой тариф выбрать?</summary><p>«Начальный» подходит тем, кто только начинает: до 400 заказов в месяц, вы и 2 сотрудника. «Профессиональный» — для мастерских с командой и WhatsApp: до 600 заказов и 8 пользователей. В «Бизнесе» нет ограничений по заказам и пользователям.</p></details>
+    <details><summary>Какой тариф выбрать?</summary><p>«Базовый» подходит тем, кто только начинает: до 400 заказов в месяц, вы и 2 сотрудника. «Профессиональный» — для мастерских с командой и WhatsApp: до 600 заказов и 8 пользователей. В «Бизнесе» нет ограничений по заказам и пользователям.</p></details>
     <details><summary>Для какого сервисного центра подходит система?</summary><p>Для мастерских по ремонту телефонов, ноутбуков, игровых консолей, телевизоров и другой электроники. Вы сами добавляете типы устройств, с которыми работает ваш центр.</p></details>
     <details><summary>Есть ли приложение для телефона?</summary><p>Работает в браузере и устанавливается на главный экран телефона как приложение, без магазина приложений.</p></details>
     <details><summary>Есть ли контракт или обязательный срок?</summary><p>Нет. Оплата помесячная: вы продлеваете, когда захотите, без контракта и обязательного срока.</p></details>

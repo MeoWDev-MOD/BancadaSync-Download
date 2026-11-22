@@ -43,7 +43,14 @@
   "offers": [
     {
       "@type": "Offer",
-      "name": "Inicial",
+      "name": "Grátis",
+      "price": "0",
+      "priceCurrency": "BRL",
+      "url": "https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe"
+    },
+    {
+      "@type": "Offer",
+      "name": "Básico",
       "price": "59.90",
       "priceCurrency": "BRL",
       "url": "https://bancadasync.discloud.app/cadastro"
@@ -91,7 +98,7 @@
       "name": "Qual plano escolher?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O Inicial atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários."
+        "text": "O Básico atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários."
       }
     },
     {
@@ -212,20 +219,22 @@ dialog img{max-height:92vh;width:auto;border-radius:12px}
 @keyframes pulso{70%{box-shadow:0 0 0 9px rgba(127,238,100,0)}100%{box-shadow:0 0 0 0 rgba(127,238,100,0)}}
 .facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:6px;padding:0;list-style:none;color:var(--muted);font-size:.95rem}
 .facts li::before{content:"✓";color:var(--brand);font-weight:800;margin-right:8px}
-.plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));margin-top:30px;align-items:stretch}
+.plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));margin-top:30px;align-items:stretch}
 .plan{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;transition:transform .2s,border-color .2s}
 .plan:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--brand) 55%,var(--line))}
 .plan.best{border-color:var(--brand);background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 9%,var(--surface)),var(--surface) 55%)}
 .plan .tag{position:absolute;top:-12px;left:24px;background:var(--brand);color:var(--brand-ink);font-size:.78rem;font-weight:800;padding:4px 12px;border-radius:999px}
 .plan h3{font-size:1.25rem;margin-bottom:4px}
 .plan .for{color:var(--muted);font-size:.93rem;min-height:2.8em;margin-bottom:14px}
-.plan .price{font-size:2.5rem;font-weight:800;letter-spacing:-.03em;line-height:1}
+.plan .price{font-size:2.15rem;font-weight:800;letter-spacing:-.03em;line-height:1;white-space:nowrap}
 .plan .price small{font-size:1rem;font-weight:600;color:var(--muted);letter-spacing:0}
 .plan ul{list-style:none;margin:20px 0 24px;padding:0;display:grid;gap:9px;flex:1;align-content:start}
 section[id]{scroll-margin-top:76px}
 .plan li{padding-left:26px;position:relative;font-size:.96rem}
 .plan li::before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:800}
 .plan .btn{width:100%}
+.plan.free{border-style:dashed}
+.plan.free .price small{display:block;margin-top:6px}
 .compare td.c b{color:var(--text)}
 .free-box{display:grid;gap:28px;grid-template-columns:1.1fr .9fr;align-items:center}
 @media (max-width:860px){.free-box{grid-template-columns:1fr}}
@@ -379,12 +388,25 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
 
 <section id="planos">
   <div class="wrap">
-    <span class="eyebrow">Planos do sistema online</span>
-    <h2>Escolha o plano e comece hoje.</h2>
-    <p class="muted" style="max-width:62ch">Você cria a conta, confirma o e-mail e faz o pagamento. Assim que o pagamento é confirmado, o sistema é liberado, sem esperar por ninguém. Sem fidelidade: você paga mês a mês.</p>
+    <span class="eyebrow">Planos</span>
+    <h2>Escolha o seu plano.</h2>
+    <p class="muted" style="max-width:62ch">Comece grátis no seu computador ou assine o sistema online para usar de qualquer aparelho. Nos planos online, você cria a conta, confirma o e-mail e faz o pagamento; assim que o pagamento é confirmado, o sistema é liberado. Sem fidelidade: você paga mês a mês.</p>
     <div class="plans">
+      <div class="plan free">
+        <h3>Grátis</h3>
+        <p class="for">Para testar no seu computador, sem pagar nada.</p>
+        <div class="price">R$ 0 <small>no seu computador</small></div>
+        <ul>
+          <li>Programa para Windows</li>
+          <li>Ordens de serviço, impressão e garantia</li>
+          <li>Clientes, estoque e financeiro</li>
+          <li>Até 3 usuários</li>
+          <li>Só no computador onde foi instalado</li>
+        </ul>
+        <a class="btn btn-ghost" href="https://github.com/MeoWDev-MOD/BancadaSync-Download/releases/latest/download/BancadaSync-Setup.exe">⬇ Baixar grátis</a>
+      </div>
       <div class="plan">
-        <h3>Inicial</h3>
+        <h3>Básico</h3>
         <p class="for">Para a assistência que está organizando o balcão.</p>
         <div class="price">R$ 59,90 <small>/mês</small></div>
         <ul>
@@ -395,7 +417,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
           <li>Portal do cliente</li>
           <li>Financeiro</li>
         </ul>
-        <a class="btn btn-ghost" href="https://bancadasync.discloud.app/cadastro">Escolher o Inicial</a>
+        <a class="btn btn-ghost" href="https://bancadasync.discloud.app/cadastro">Escolher o Básico</a>
       </div>
       <div class="plan best">
         <span class="tag">Recomendado</span>
@@ -403,7 +425,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
         <p class="for">Para a loja com equipe, que atende pelo WhatsApp.</p>
         <div class="price">R$ 89,90 <small>/mês</small></div>
         <ul>
-          <li>Tudo do Inicial</li>
+          <li>Tudo do Básico</li>
           <li>Até 600 OS por mês</li>
           <li>Até 8 usuários</li>
           <li>Vendas (balcão)</li>
@@ -494,7 +516,7 @@ if(matchMedia("(max-width:600px)").matches){s.classList.add("m");document.body.a
     <h2>Ainda com dúvida?</h2>
     <details><summary>Preciso instalar alguma coisa no sistema online?</summary><p>Não. É só entrar pelo navegador do computador, do tablet ou do celular, com o seu e-mail e senha.</p></details>
     <details><summary>Quando o sistema é liberado depois que eu pago?</summary><p>Assim que o pagamento é confirmado. Você cria a conta, confirma o e-mail e faz o pagamento; a liberação é automática.</p></details>
-    <details><summary>Qual plano escolher?</summary><p>O Inicial atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários.</p></details>
+    <details><summary>Qual plano escolher?</summary><p>O Básico atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários.</p></details>
     <details><summary>Serve para qual tipo de assistência técnica?</summary><p>Para assistências de celular, notebook, videogame, TV e outros aparelhos eletrônicos. Você cadastra os tipos de aparelho que a sua loja atende.</p></details>
     <details><summary>Tem aplicativo para celular?</summary><p>Funciona no navegador e pode ser instalado na tela inicial do celular, como um aplicativo, sem baixar de loja de aplicativos.</p></details>
     <details><summary>Tem fidelidade ou contrato?</summary><p>Não. O pagamento é mês a mês: você renova quando quiser, sem contrato de fidelidade.</p></details>

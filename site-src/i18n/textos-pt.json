@@ -35,9 +35,14 @@
   "pt": "Sistema online para assistência técnica: ordem de serviço, fila de produção, WhatsApp, estoque e financeiro, de qualquer aparelho."
  },
  {
-  "k": "1708faf0b7",
+  "k": "26f630caad",
   "pagina": "index.html",
-  "pt": "Inicial"
+  "pt": "Grátis"
+ },
+ {
+  "k": "303ce531ce",
+  "pagina": "index.html",
+  "pt": "Básico"
  },
  {
   "k": "b5e489aa12",
@@ -75,9 +80,9 @@
   "pt": "Qual plano escolher?"
  },
  {
-  "k": "1a71013379",
+  "k": "7e3a8dce1a",
   "pagina": "index.html",
-  "pt": "O Inicial atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários."
+  "pt": "O Básico atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários."
  },
  {
   "k": "87c3bda1aa",
@@ -495,19 +500,54 @@
   "pt": "Quero usar o BancadaSync"
  },
  {
-  "k": "a545bea360",
+  "k": "9766768c11",
   "pagina": "index.html",
-  "pt": "Planos do sistema online"
+  "pt": "Escolha o seu plano."
  },
  {
-  "k": "9a0e8ef7a6",
+  "k": "1fdbe3be3a",
   "pagina": "index.html",
-  "pt": "Escolha o plano e comece hoje."
+  "pt": "Comece grátis no seu computador ou assine o sistema online para usar de qualquer aparelho. Nos planos online, você cria a conta, confirma o e-mail e faz o pagamento; assim que o pagamento é confirmado, o sistema é liberado. Sem fidelidade: você paga mês a mês."
  },
  {
-  "k": "effeddf81e",
+  "k": "552947c54f",
   "pagina": "index.html",
-  "pt": "Você cria a conta, confirma o e-mail e faz o pagamento. Assim que o pagamento é confirmado, o sistema é liberado, sem esperar por ninguém. Sem fidelidade: você paga mês a mês."
+  "pt": "Para testar no seu computador, sem pagar nada."
+ },
+ {
+  "k": "610b689fec",
+  "pagina": "index.html",
+  "pt": "R$ 0 <small>no seu computador</small>"
+ },
+ {
+  "k": "81ad611da8",
+  "pagina": "index.html",
+  "pt": "Programa para Windows"
+ },
+ {
+  "k": "766fbd2e45",
+  "pagina": "index.html",
+  "pt": "Ordens de serviço, impressão e garantia"
+ },
+ {
+  "k": "4db24ba4f2",
+  "pagina": "index.html",
+  "pt": "Clientes, estoque e financeiro"
+ },
+ {
+  "k": "5ca876b217",
+  "pagina": "index.html",
+  "pt": "Até 3 usuários"
+ },
+ {
+  "k": "d2ca30c363",
+  "pagina": "index.html",
+  "pt": "Só no computador onde foi instalado"
+ },
+ {
+  "k": "4808cf3f54",
+  "pagina": "index.html",
+  "pt": "⬇ Baixar grátis"
  },
  {
   "k": "66c9f58607",
@@ -550,9 +590,9 @@
   "pt": "Financeiro"
  },
  {
-  "k": "c23e09922a",
+  "k": "2183235623",
   "pagina": "index.html",
-  "pt": "Escolher o Inicial"
+  "pt": "Escolher o Básico"
  },
  {
   "k": "fef9d960d5",
@@ -570,9 +610,9 @@
   "pt": "R$ 89,90 <small>/mês</small>"
  },
  {
-  "k": "8575ff1c6a",
+  "k": "5cbcf14d1c",
   "pagina": "index.html",
-  "pt": "Tudo do Inicial"
+  "pt": "Tudo do Básico"
  },
  {
   "k": "d2dc9b3907",
@@ -690,11 +730,6 @@
   "pt": "Online (planos)"
  },
  {
-  "k": "766fbd2e45",
-  "pagina": "index.html",
-  "pt": "Ordens de serviço, impressão e garantia"
- },
- {
   "k": "1735400972",
   "pagina": "index.html",
   "pt": "Clientes, equipamentos, produtos e serviços"
@@ -765,11 +800,6 @@
   "pt": "Preço"
  },
  {
-  "k": "26f630caad",
-  "pagina": "index.html",
-  "pt": "Grátis"
- },
- {
   "k": "5e00104ed6",
   "pagina": "index.html",
   "pt": "a partir de R$ 59,90/mês"
@@ -793,11 +823,6 @@
   "k": "57c562f587",
   "pagina": "index.html",
   "pt": "Roda no seu computador, sem mensalidade"
- },
- {
-  "k": "5ca876b217",
-  "pagina": "index.html",
-  "pt": "Até 3 usuários"
  },
  {
   "k": "0ffcadeb57",
