@@ -487,3 +487,7 @@ Lista de órdenes de servicio en el celular
 Usted crea la cuenta, confirma el correo y hace el pago. En cuanto se confirma el pago, el sistema se activa, sin esperar a nadie. Sin permanencia: usted paga mes a mes.
 @@ 9b3b852fc3
 Sistema en línea para talleres: órdenes, cola de producción, WhatsApp, inventario y finanzas, desde cualquier dispositivo. Desde R$ 59,90/mes.
+@@ 0936fff4b2
+R$ 89,90 <small>/mes</small>
+@@ 4866d6d273
+R$ 149,90 <small>/mes</small>

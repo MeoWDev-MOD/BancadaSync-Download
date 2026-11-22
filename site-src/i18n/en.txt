@@ -487,3 +487,7 @@ Service order list on a phone
 You create the account, confirm your e-mail and pay. As soon as the payment is confirmed, the system is activated, with no one to wait for. No lock-in: you pay month to month.
 @@ 9b3b852fc3
 Online system for repair shops: orders, production queue, WhatsApp, inventory and finances, from any device. Plans from R$59.90/month.
+@@ 0936fff4b2
+R$89.90 <small>/month</small>
+@@ 4866d6d273
+R$149.90 <small>/month</small>
