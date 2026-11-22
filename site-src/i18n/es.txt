@@ -424,3 +424,66 @@ Funciona solo en el computador donde se instaló, para hasta 3 usuarios, y no ti
 ¿Dudas o sugerencias?
 @@ 108338cd4a
 Crear mi cuenta
+
+@@ 0e22c4aa19
+Sistema en línea para talleres de reparación | BancadaSync
+@@ fbb8d04745
+Sistema en línea para talleres de reparación: órdenes de servicio, cola de producción, WhatsApp, inventario y finanzas. Acceda desde cualquier dispositivo. Planes desde R$ 59,90/mes.
+@@ 5cc53fd32f
+BancadaSync: sistema en línea para talleres de reparación
+@@ 37a3a17b6d
+Órdenes de servicio, cola de producción, WhatsApp y finanzas en un solo lugar. Acceda desde cualquier dispositivo. Planes desde R$ 59,90 al mes.
+@@ 6d6ca06057
+Panel de BancadaSync en el computador y lista de órdenes de servicio en el celular
+@@ c0104566c0
+Órdenes de servicio, cola de producción, WhatsApp y finanzas. Planes desde R$ 59,90 al mes.
+@@ d0a75454ce
+Sistema en línea para talleres de reparación: órdenes de servicio, cola de producción, WhatsApp, inventario y finanzas, desde cualquier dispositivo.
+@@ 87c3bda1aa
+¿Para qué tipo de taller de reparación sirve?
+@@ 9945928ade
+Para talleres de celulares, notebooks, consolas de videojuegos, TV y otros aparatos electrónicos. Usted registra los tipos de equipo que atiende su taller.
+@@ 32b61daaed
+¿Hay aplicación para el celular?
+@@ 509e443b16
+Funciona en el navegador y se puede instalar en la pantalla de inicio del celular como una aplicación, sin pasar por una tienda de aplicaciones.
+@@ 90d5c8bbc8
+¿Hay permanencia o contrato?
+@@ 71131dc488
+No. El pago es mes a mes: usted renueva cuando quiera, sin contrato de permanencia.
+@@ cf36851068
+¿Puedo probarlo antes de suscribirme?
+@@ 40fc954b0e
+Puede descargar la versión gratis para Windows y probarla en su computador. Funciona solo en el computador donde se instaló, para hasta 3 usuarios, y no tiene WhatsApp, enlace de seguimiento ni N8N.
+@@ 9073ebed9b
+Sistema para talleres de reparación,<br>desde cualquier lugar.
+@@ 289fd6e732
+Emita órdenes de servicio, organice la cola de producción y controle inventario, finanzas y WhatsApp en un solo sistema en línea, para talleres de celulares, notebooks, consolas de videojuegos y otros equipos. Entre desde el computador, la tableta o el celular, con todo el equipo trabajando junto.
+@@ 0f411cd17a
+Planes desde R$ 59,90 al mes, con 400 órdenes en el plan de entrada
+@@ c55b698983
+Sin permanencia: usted paga mes a mes
+@@ d03703a3f6
+"¿Quién tiene cuál equipo?"
+@@ f2f968f189
+Cola de producción
+@@ f11db1b889
+Cada técnico ve su propia cola de reparaciones, con lo que está atrasado o vence hoy, sin tener que preguntar en el mostrador.
+@@ 2ce0104911
+"¿Ya avisé al cliente?"
+@@ 456ce083fe
+WhatsApp del taller
+@@ 3fa43dcb96
+Converse y envíe el enlace de seguimiento por el WhatsApp del taller, con plantillas de mensaje listas. En los planes Profesional y Empresarial.
+@@ ed864b3d50
+Panel de BancadaSync abierto en el celular
+@@ 2ea75b857f
+<b>En el celular.</b> El panel del taller en la palma de la mano.
+@@ 9340836c78
+Lista de órdenes de servicio en el celular
+@@ 52bf05f86c
+<b>Órdenes en el celular.</b> Consulte y actualice una orden desde donde esté.
+@@ effeddf81e
+Usted crea la cuenta, confirma el correo y hace el pago. En cuanto se confirma el pago, el sistema se activa, sin esperar a nadie. Sin permanencia: usted paga mes a mes.
+@@ 9b3b852fc3
+Sistema en línea para talleres: órdenes, cola de producción, WhatsApp, inventario y finanzas, desde cualquier dispositivo. Desde R$ 59,90/mes.

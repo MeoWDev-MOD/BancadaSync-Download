@@ -424,3 +424,66 @@ How do I check that the free version's file is the original? (SHA-256 of version
 Questions or suggestions?
 @@ 108338cd4a
 Create my account
+
+@@ 0e22c4aa19
+Online Repair Shop Software | BancadaSync
+@@ fbb8d04745
+Online system for repair shops: service orders, production queue, WhatsApp, inventory and finances. Use it from any device. Plans from R$59.90/month.
+@@ 5cc53fd32f
+BancadaSync: online system for repair shops
+@@ 37a3a17b6d
+Service orders, production queue, WhatsApp and finances in one place. Use it from any device. Plans from R$59.90 per month.
+@@ 6d6ca06057
+BancadaSync dashboard on a computer and the service order list on a phone
+@@ c0104566c0
+Service orders, production queue, WhatsApp and finances. Plans from R$59.90 per month.
+@@ d0a75454ce
+Online system for repair shops: service orders, production queue, WhatsApp, inventory and finances, from any device.
+@@ 87c3bda1aa
+What kind of repair shop is it for?
+@@ 9945928ade
+For shops that repair phones, notebooks, video game consoles, TVs and other electronics. You register the types of device your shop handles.
+@@ 32b61daaed
+Is there a phone app?
+@@ 509e443b16
+It works in the browser and can be installed on the phone's home screen like an app, without going through an app store.
+@@ 90d5c8bbc8
+Is there a lock-in or contract?
+@@ 71131dc488
+No. Payment is month to month: you renew whenever you want, with no lock-in contract.
+@@ cf36851068
+Can I try it before subscribing?
+@@ 40fc954b0e
+You can download the free version for Windows and try it on your computer. It works only on the computer where it was installed, for up to 3 users, and has no WhatsApp, tracking link or N8N.
+@@ 9073ebed9b
+Repair shop software,<br>from anywhere.
+@@ 289fd6e732
+Issue service orders, organize the production queue and control inventory, finances and WhatsApp in one online system, for repair shops handling phones, notebooks, video game consoles and other devices. Log in from a computer, tablet or phone, with your whole team working together.
+@@ 0f411cd17a
+Plans from R$59.90 per month, with 400 orders in the entry plan
+@@ c55b698983
+No lock-in: you pay month to month
+@@ d03703a3f6
+"Who has which device?"
+@@ f2f968f189
+Production queue
+@@ f11db1b889
+Each technician sees their own repair queue, with what is overdue or due today, with no need to ask at the bench.
+@@ 2ce0104911
+"Did I notify the customer?"
+@@ 456ce083fe
+The shop's WhatsApp
+@@ 3fa43dcb96
+Chat and send the tracking link through the shop's WhatsApp, with ready-made message templates. On the Professional and Business plans.
+@@ ed864b3d50
+BancadaSync dashboard open on a phone
+@@ 2ea75b857f
+<b>On the phone.</b> The shop's dashboard in the palm of your hand.
+@@ 9340836c78
+Service order list on a phone
+@@ 52bf05f86c
+<b>Orders on the phone.</b> Check and update an order from wherever you are.
+@@ effeddf81e
+You create the account, confirm your e-mail and pay. As soon as the payment is confirmed, the system is activated, with no one to wait for. No lock-in: you pay month to month.
+@@ 9b3b852fc3
+Online system for repair shops: orders, production queue, WhatsApp, inventory and finances, from any device. Plans from R$59.90/month.

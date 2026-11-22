@@ -1,23 +1,133 @@
 [
  {
-  "k": "0b7e1ac584",
+  "k": "0e22c4aa19",
   "pagina": "index.html",
-  "pt": "BancadaSync — sistema online para assistência técnica, a partir de R$ 59,90/mês"
+  "pt": "Sistema para Assistência Técnica Online | BancadaSync"
  },
  {
-  "k": "2bc5bfedf1",
+  "k": "9b3b852fc3",
   "pagina": "index.html",
-  "pt": "Ordens de serviço, clientes, financeiro, garantia e WhatsApp num sistema online para assistência técnica. Acesse do computador, tablet ou celular, com a equipe toda junta. Planos a partir de R$ 59,90 por mês. Também há versão grátis para um computador."
+  "pt": "Sistema online para assistência técnica: OS, fila de produção, WhatsApp, estoque e financeiro, de qualquer aparelho. Planos a partir de R$ 59,90/mês."
  },
  {
-  "k": "a5ef775088",
+  "k": "5cc53fd32f",
   "pagina": "index.html",
-  "pt": "BancadaSync — sistema online para assistência técnica"
+  "pt": "BancadaSync: sistema online para assistência técnica"
  },
  {
-  "k": "2643681e4b",
+  "k": "37a3a17b6d",
   "pagina": "index.html",
-  "pt": "Do check-in ao reparo entregue, de qualquer aparelho. Planos a partir de R$ 59,90 por mês."
+  "pt": "Ordem de serviço, fila de produção, WhatsApp e financeiro num só lugar. Acesse de qualquer aparelho. Planos a partir de R$ 59,90 por mês."
+ },
+ {
+  "k": "6d6ca06057",
+  "pagina": "index.html",
+  "pt": "Painel do BancadaSync no computador e lista de ordens de serviço no celular"
+ },
+ {
+  "k": "c0104566c0",
+  "pagina": "index.html",
+  "pt": "Ordem de serviço, fila de produção, WhatsApp e financeiro. Planos a partir de R$ 59,90 por mês."
+ },
+ {
+  "k": "d0a75454ce",
+  "pagina": "index.html",
+  "pt": "Sistema online para assistência técnica: ordem de serviço, fila de produção, WhatsApp, estoque e financeiro, de qualquer aparelho."
+ },
+ {
+  "k": "1708faf0b7",
+  "pagina": "index.html",
+  "pt": "Inicial"
+ },
+ {
+  "k": "b5e489aa12",
+  "pagina": "index.html",
+  "pt": "Profissional"
+ },
+ {
+  "k": "ecd20bf8e1",
+  "pagina": "index.html",
+  "pt": "Empresarial"
+ },
+ {
+  "k": "87c8fc89c5",
+  "pagina": "index.html",
+  "pt": "Preciso instalar alguma coisa no sistema online?"
+ },
+ {
+  "k": "11f0eb8ef8",
+  "pagina": "index.html",
+  "pt": "Não. É só entrar pelo navegador do computador, do tablet ou do celular, com o seu e-mail e senha."
+ },
+ {
+  "k": "a08584454b",
+  "pagina": "index.html",
+  "pt": "Quando o sistema é liberado depois que eu pago?"
+ },
+ {
+  "k": "95493c932d",
+  "pagina": "index.html",
+  "pt": "Assim que o pagamento é confirmado. Você cria a conta, confirma o e-mail e faz o pagamento; a liberação é automática."
+ },
+ {
+  "k": "1b4bb83eaf",
+  "pagina": "index.html",
+  "pt": "Qual plano escolher?"
+ },
+ {
+  "k": "1a71013379",
+  "pagina": "index.html",
+  "pt": "O Inicial atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários."
+ },
+ {
+  "k": "87c3bda1aa",
+  "pagina": "index.html",
+  "pt": "Serve para qual tipo de assistência técnica?"
+ },
+ {
+  "k": "9945928ade",
+  "pagina": "index.html",
+  "pt": "Para assistências de celular, notebook, videogame, TV e outros aparelhos eletrônicos. Você cadastra os tipos de aparelho que a sua loja atende."
+ },
+ {
+  "k": "32b61daaed",
+  "pagina": "index.html",
+  "pt": "Tem aplicativo para celular?"
+ },
+ {
+  "k": "509e443b16",
+  "pagina": "index.html",
+  "pt": "Funciona no navegador e pode ser instalado na tela inicial do celular, como um aplicativo, sem baixar de loja de aplicativos."
+ },
+ {
+  "k": "90d5c8bbc8",
+  "pagina": "index.html",
+  "pt": "Tem fidelidade ou contrato?"
+ },
+ {
+  "k": "71131dc488",
+  "pagina": "index.html",
+  "pt": "Não. O pagamento é mês a mês: você renova quando quiser, sem contrato de fidelidade."
+ },
+ {
+  "k": "cf36851068",
+  "pagina": "index.html",
+  "pt": "Posso testar antes de assinar?"
+ },
+ {
+  "k": "40fc954b0e",
+  "pagina": "index.html",
+  "pt": "Pode baixar a versão grátis para Windows e testar no seu computador. Ela funciona só no computador onde foi instalada, para até 3 usuários, e não tem WhatsApp, link de acompanhamento nem N8N."
+ },
+ {
+  "k": "3379222495",
+  "pagina": "index.html",
+  "pt": "Qual é o limite da versão grátis?"
+ },
+ {
+  "k": "3099ab062a",
+  "pagina": "index.html",
+  "pt": "Ela roda só no computador em que foi instalada, para até 3 usuários, e não tem WhatsApp, link de acompanhamento nem N8N."
  },
  {
   "k": "430e13e17a",
@@ -60,14 +170,14 @@
   "pt": "<i></i>Sistema online, pronto para usar"
  },
  {
-  "k": "444393fe2e",
+  "k": "9073ebed9b",
   "pagina": "index.html",
-  "pt": "A sua assistência técnica<br>organizada, de qualquer lugar."
+  "pt": "Sistema para assistência técnica,<br>de qualquer lugar."
  },
  {
-  "k": "43f908f5b5",
+  "k": "289fd6e732",
   "pagina": "index.html",
-  "pt": "Ordens de serviço, clientes, financeiro, garantia e WhatsApp num só sistema. Entre pelo computador, pelo tablet ou pelo celular, e a equipe inteira trabalha junta, ao mesmo tempo."
+  "pt": "Emita ordens de serviço, organize a fila de produção e controle estoque, financeiro e WhatsApp num só sistema online, para assistência técnica de celular, notebook, videogame e outros aparelhos. Entre pelo computador, pelo tablet ou pelo celular, com a equipe toda trabalhando junta."
  },
  {
   "k": "4bcae4efb0",
@@ -80,9 +190,14 @@
   "pt": "Já tenho conta · Entrar"
  },
  {
-  "k": "bb92d8b165",
+  "k": "0f411cd17a",
   "pagina": "index.html",
-  "pt": "Planos a partir de R$ 59,90 por mês"
+  "pt": "Planos a partir de R$ 59,90 por mês, com 400 OS no plano de entrada"
+ },
+ {
+  "k": "c55b698983",
+  "pagina": "index.html",
+  "pt": "Sem fidelidade: você paga mês a mês"
  },
  {
   "k": "9f232acf46",
@@ -160,6 +275,21 @@
   "pt": "O cliente acompanha o conserto pelo celular dele, sem precisar ligar para a loja."
  },
  {
+  "k": "d03703a3f6",
+  "pagina": "index.html",
+  "pt": "\"Quem está com qual aparelho?\""
+ },
+ {
+  "k": "f2f968f189",
+  "pagina": "index.html",
+  "pt": "Fila de produção"
+ },
+ {
+  "k": "f11db1b889",
+  "pagina": "index.html",
+  "pt": "Cada técnico vê a própria fila de reparos, com o que está atrasado ou vence hoje, sem precisar perguntar na bancada."
+ },
+ {
   "k": "13d393c0d6",
   "pagina": "index.html",
   "pt": "\"Qual OS está esperando peça?\""
@@ -188,6 +318,21 @@
   "k": "835397c273",
   "pagina": "index.html",
   "pt": "Nota de serviço com dados da loja, itens, total, prazos, garantia e campo de assinatura do cliente."
+ },
+ {
+  "k": "2ce0104911",
+  "pagina": "index.html",
+  "pt": "\"Avisei o cliente?\""
+ },
+ {
+  "k": "456ce083fe",
+  "pagina": "index.html",
+  "pt": "WhatsApp da loja"
+ },
+ {
+  "k": "3fa43dcb96",
+  "pagina": "index.html",
+  "pt": "Converse e envie o link de acompanhamento pelo WhatsApp da loja, com modelos de mensagem prontos. Nos planos Profissional e Empresarial."
  },
  {
   "k": "37697818e4",
@@ -325,6 +470,26 @@
   "pt": "<b>Agenda.</b> Atendimentos do dia, da semana e do mês."
  },
  {
+  "k": "ed864b3d50",
+  "pagina": "index.html",
+  "pt": "Painel do BancadaSync aberto no celular"
+ },
+ {
+  "k": "2ea75b857f",
+  "pagina": "index.html",
+  "pt": "<b>No celular.</b> O painel da loja na palma da mão."
+ },
+ {
+  "k": "9340836c78",
+  "pagina": "index.html",
+  "pt": "Lista de ordens de serviço no celular"
+ },
+ {
+  "k": "52bf05f86c",
+  "pagina": "index.html",
+  "pt": "<b>Ordens no celular.</b> Consulte e atualize uma OS de onde estiver."
+ },
+ {
   "k": "575ea2cd07",
   "pagina": "index.html",
   "pt": "Quero usar o BancadaSync"
@@ -340,14 +505,9 @@
   "pt": "Escolha o plano e comece hoje."
  },
  {
-  "k": "68e9cf132d",
+  "k": "effeddf81e",
   "pagina": "index.html",
-  "pt": "Você cria a conta, confirma o e-mail e faz o pagamento. Assim que o pagamento é confirmado, o sistema é liberado, sem esperar por ninguém."
- },
- {
-  "k": "1708faf0b7",
-  "pagina": "index.html",
-  "pt": "Inicial"
+  "pt": "Você cria a conta, confirma o e-mail e faz o pagamento. Assim que o pagamento é confirmado, o sistema é liberado, sem esperar por ninguém. Sem fidelidade: você paga mês a mês."
  },
  {
   "k": "66c9f58607",
@@ -400,11 +560,6 @@
   "pt": "Recomendado"
  },
  {
-  "k": "b5e489aa12",
-  "pagina": "index.html",
-  "pt": "Profissional"
- },
- {
   "k": "48f6de8fa0",
   "pagina": "index.html",
   "pt": "Para a loja com equipe, que atende pelo WhatsApp."
@@ -453,11 +608,6 @@
   "k": "0b4fa4582b",
   "pagina": "index.html",
   "pt": "Escolher o Profissional"
- },
- {
-  "k": "ecd20bf8e1",
-  "pagina": "index.html",
-  "pt": "Empresarial"
  },
  {
   "k": "ed365476b9",
@@ -698,46 +848,6 @@
   "k": "9b74312f10",
   "pagina": "index.html",
   "pt": "Ainda com dúvida?"
- },
- {
-  "k": "87c8fc89c5",
-  "pagina": "index.html",
-  "pt": "Preciso instalar alguma coisa no sistema online?"
- },
- {
-  "k": "11f0eb8ef8",
-  "pagina": "index.html",
-  "pt": "Não. É só entrar pelo navegador do computador, do tablet ou do celular, com o seu e-mail e senha."
- },
- {
-  "k": "a08584454b",
-  "pagina": "index.html",
-  "pt": "Quando o sistema é liberado depois que eu pago?"
- },
- {
-  "k": "95493c932d",
-  "pagina": "index.html",
-  "pt": "Assim que o pagamento é confirmado. Você cria a conta, confirma o e-mail e faz o pagamento; a liberação é automática."
- },
- {
-  "k": "1b4bb83eaf",
-  "pagina": "index.html",
-  "pt": "Qual plano escolher?"
- },
- {
-  "k": "1a71013379",
-  "pagina": "index.html",
-  "pt": "O Inicial atende quem está começando, com até 400 OS por mês e você mais 2 funcionários. O Profissional serve para lojas com equipe e WhatsApp, com até 600 OS e 8 usuários. O Empresarial não tem limite de OS nem de usuários."
- },
- {
-  "k": "3379222495",
-  "pagina": "index.html",
-  "pt": "Qual é o limite da versão grátis?"
- },
- {
-  "k": "3099ab062a",
-  "pagina": "index.html",
-  "pt": "Ela roda só no computador em que foi instalada, para até 3 usuários, e não tem WhatsApp, link de acompanhamento nem N8N."
  },
  {
   "k": "b842f51c6f",
